@@ -5,11 +5,9 @@ Currently there lacks design foundations within Bitcoin Core making it difficult
 My design philosophy for core is to find a happy-medium between technical prowess and a clean user experience that beginner users can be intuatively guided through. I do not see core (or more specifially the GUI) as being a flashy product like umbrel or mynode but rather a swiss-army knife of sorts that has various tools that can cater to a wide range of users needs whether very techincal or a complete beginer. The Bitcoin Core community has done / is doing some phenomenal work for Bitcoin and I beileve with good design on their side can be a driving force for implementing new features, terminology and practices to the wider Bitcoin ecosystem.
 
 ## Goals
-
 The primary overarching goal is to bridge the gap between the Bitcoin Core community and the Bitcoin Design community by establishing solid foundations that developers and designers can build on top of. 
 
-### General goals:
-
+### General goals
 - Establish a design system for Bitcoin Core to:
   - Assist with on-boarding new designers and developers.
   - Streamline the design and development process and contribution.
@@ -27,7 +25,7 @@ The primary overarching goal is to bridge the gap between the Bitcoin Core commu
 - Apply what I learn working on designs with Bitcoin Core to the [Bitcoin Design Guide.](https://github.com/BitcoinDesign/Guide)
   - An example being the section on Open Design. I'd imagine insight gained from implementing designs with the Core developers will be useful.
 
-### Specific goals:
+### Specific goals
 
 - Increase Bitcoin Core node count to ~20k by end of 2021 (currently around ~10k). Bitcoin Core is still the primary Bitcoin node software. By improving the UI/UX of the GUI more users should begin to run their own nodes.
   - Hard to quantifiy that this would be changes made on Bitcoin Core, espeically so considering UX friendly node tools like Umbrel also use core.
@@ -39,17 +37,14 @@ I'm confident in establishing solid design foundations for Bitcoin Core over the
 Below are some design projects I have been working on for Bitcoin Core. Many of these mini-projects have been broken up into smaller versions to limit technical debt and align with the conservative and incremental way in which Bitcoin Core is updated. Lower versions are mostly aimed around content re-works, such as educating users (e.g. clarifying wallet types when creating a wallet), whilst later versions focus more on implementing a new feature (e.g. UI/UX for HWI when creating a wallet). All projects will go through regular reviews via the core GUI repo as well as on the Bitcoin Design Slack. 
 
 ### Bitcoin Core design system v1.0
-
 A design system will be pivitol in on-borading new designers and making the design implementation process more seamless. v1.0 will only focus on branding and content guidelines as well as provide a resources library for things like figma files, templates, a glossary, guides, presentation kits and designer workflows.
 
 Aiming to develop this design system using [catalog](https://www.catalog.style/). I have started developing this and will create a repo anyone can contribute to soon. I chose catalog because is quite intiutative to use so non-technical designers should not have an issue contributing. Furthermore, many designers are also familiar with web frame works like React (which Catalog is written in) making more technical changes easier to do.
 
 ### [GUI on-boarding designs v1.0](https://github.com/bitcoin-core/gui/issues/81)
-
 The aim of this design was to create a high impact, low technical debt design to assist with educating users about the GUI and what it offers. The current on-boarding process is almost non-existant and unclear as to what it is the user is is doing / needs to do. 
 
 ### [GUI create wallet designs v1.0](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)     
-
 - HWI is a top priority.
 
 ### Misc designs
@@ -58,7 +53,6 @@ Here are some minor design decions I have made / in the process of making. Pleas
 - Added a Tor icon for when all network connections are through the Tor network - [issue](https://github.com/bitcoin-core/gui/issues/58) / [PR](https://github.com/bitcoin-core/gui/pull/86)
 
 - Some minor changes to the create wallet section of the GUI - https://github.com/bitcoin-core/gui/pull/96
-
 
 ### [Bitcoin Core Figma file](https://www.figma.com/file/FJ02rY3m8V9ZCDvoXjW39W/Bitcoin-Core?node-id=25%3A569)
 
@@ -74,14 +68,14 @@ Develop a design_process.md file to merge into core, similar to the translation_
 
 Icon policy documentation on how to contribute / implement icons into the GUI repo - this will be for both developers and designers. 
 
-Design workflow documentation. This will be included in GH, figma and the design system. 
+Design workflow documentation (structure mentioned above). This will be included in GH, figma and the design system. 
 
 ### Develop designer guides
 
 A designer focused guide is on assisting designers compile the Bitcoin Core GUI from source and review design changes. [Link to WIP](https://medium.com/p/1e73f478a799/edit). 
 
 ### Opening / keeping dialogues going with developers around UI/UX
-There are many obvious UX improvements that could be made to core, however the trade-offs are often too great (currently, anyways) or do not align with Bitcoin Core's values. Even if these implementations will never be feasible, it's important to have historical context on topics so that future designers getting involved do not repeat the same questions. Below are some discussions I've started / will start that may or may not be feasible but are worth being discussed for future reference. This list will grow as time goes on. 
+There are many obvious UX improvements that could be made to core, however the trade-offs are often too great (currently, anyways) or do not align with Bitcoin Core's values. Even if these ideas will never be feasible, it's important to have historical context on these topics so that future designers getting involved do not repeat the same questions. Below are some discussions I've started / will start that may or may not be feasible but are worth being discussed for future reference. This list will grow as time goes on. I will summarise these and future discussions here as well as on the Bitcoin Stack exchange and Bitcointalk where relevant. 
 
 - [Branding](https://github.com/bitcoin-core/gui/issues/89) of Bitcoin Core discussion.
 
@@ -93,7 +87,9 @@ There are many obvious UX improvements that could be made to core, however the t
 
 - Creating a design issue template for the GUI repo. This will help designs provide the right info so they get appropriate feedback from the community, especially developers. As the GUI grows
 
--Switching from Qt Widgets to Qt QML for the GUI. Qt widgets has many design restraints that make it difficult for desginers to make changes to. Switching to QML gives more flexibility design wise. Furthermore, widgets incurs more technical debt as many changes will be OS specific and make look bad on other OS's requiring much more testing / revewing / desiging. 
+- Switching from Qt Widgets to Qt QML for the GUI. Qt widgets has many design restraints that make it difficult for desginers to make changes to. Switching to QML gives more flexibility design wise. Furthermore, widgets incurs more technical debt as many changes will be OS specific and make look bad on other OS's requiring much more testing / revewing / desiging. 
+
+- Having HWI installed with the GUI binaries. Currently users have to install this seperately and set the HWI path in the GUI settings. This is quite cumbersome, having HWI installed alongside the GUI and the path automatically set behind the scenes would be ideal. 
 
 
 ## Planned / early stage projects
@@ -103,7 +99,7 @@ There are many obvious UX improvements that could be made to core, however the t
 This will build on v1.0 and focus on components and patterns as well as foundations like colors, iconography, accessibility and typography. I am currently holding off working on these aspects due to the discussions being had around switching from [Qt Widgets to Qt QML](https://github.com/bitcoin/bitcoin/pull/16883) which have very different design constraints and will determine what direction to take for these parts of the design system. 
 
 ### GUI on-boarding designs v2.0
-v2.0 will focus on implementing a create wallet flow alongside setting up your node in v1.0. Ideally this will include a HWI 
+v2.0 will focus on implementing a create wallet flow alongside setting up your node in v1.0. This will include a HWI, which I see as a top priority for the GUI, and the ability to make watch-only wallets by importing descriptors.  
 
 ### GUI create wallet designs v2.0
 
