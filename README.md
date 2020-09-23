@@ -16,9 +16,9 @@ The primary overarching goal is to bridge the gap between the Bitcoin Core commu
   
 - Be an active design focused PR reviewer for the Bitcoin Core GUI repo.
 
-- Keeping dialogues going between developers and designers around UI/UX decisions. Core moves at a slow pace so it's easy for certain suggestions to get forgotten over time. [Here](https://github.com/bitcoin-core/gui/issues/89) is an example around the branding of Bitcoin Core. 
+- Keeping dialogues going between developers and designers around UI/UX decisions. Core moves at a slow pace so it's easy for certain suggestions to get forgotten over time. 
 
-- Represent users in many conversations on Github / IRC / Slack that shape the Bitcoin Core GUI. 
+- Represent end users in many conversations on Github / IRC / Slack that shape the Bitcoin Core GUI. 
 
 - Collaborate with Bitcoin Core design researchers such as Jamaal when it comes to making design decisions. [Jamaal’s Project Horizon.](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#)
 
@@ -29,6 +29,9 @@ The primary overarching goal is to bridge the gap between the Bitcoin Core commu
 
 - Increase Bitcoin Core node count to ~20k by end of 2021 (currently around ~10k). Bitcoin Core is still the primary Bitcoin node software. By improving the UI/UX of the GUI more users should begin to run their own nodes.
   - Hard to quantifiy that this would be changes made on Bitcoin Core, espeically so considering UX friendly node tools like Umbrel also use core.
+
+## Timeline
+I'm confident in establishing solid design foundations for Bitcoin Core over the next 6 months. The implementation of specific designs is harder to gauge as its restricted to the pace of Core which historically is quite conservative (for good reason!). In general though it is common for design decicions to be far ahead of development changes, I will keep making / improving on designs 
 
 ## Current Projects
 Below are some design projects I have been working on for Bitcoin Core. Many of these mini-projects have been broken up into smaller versions to limit technical debt and align with the conservative and incremental way in which Bitcoin Core is updated. Lower versions are mostly aimed around content re-works, such as educating users (e.g. clarifying wallet types when creating a wallet), whilst later versions focus more on implementing a new feature (e.g. UI/UX for HWI when creating a wallet). All projects will go through regular reviews via the core GUI repo as well as on the Bitcoin Design Slack. 
@@ -47,7 +50,7 @@ The aim of this design was to create a high impact, low technical debt design to
 
 - 
 
-### Misc design improvements
+### Misc designs
 Here are some minor design decions I have made / in the process of making. Please view my Github for a deeper dive on discussions / suggestions I've made.
 
 - Added a Tor icon for when all network connections are through the Tor network - https://github.com/bitcoin-core/gui/issues/58
@@ -86,7 +89,7 @@ There are many obvious UX improvements that could be made to core, however the t
 
 - Shipping the GUI with Tor binaries that execute on launching. Currently users need to have Tor running before the 'default Tor mode' works out of the box. Many users are likely to not have Tor downloaded but turn on the default Tor option giving them a false sense of privacy. Shipping with the GUI would improve UX around this. 
 
-- 
+- Creating a design issue template for the GUI repo. This will help designs provide the right info so they get appropriate feedback from the community, especially developers. As the GUI grows
 
 
 ## Planned / early stage projects
@@ -98,6 +101,9 @@ This will build on v1.0 and focus on components and patterns as well as foundati
 ### GUI on-boarding designs v2.0
 
 ### GUI create wallet designs v2.0
+
+### GUI Qt QML designs
+
 
 ### GUI internal designs for HWI
 
