@@ -7,14 +7,14 @@ My design philosophy for core is to find a middle ground between technical prowe
 This document will be updated and grow as projects finish and time goes.
 
 ## Goals
-The primary goal is to bridge the gap between the Bitcoin Core community and the Bitcoin Design community by establishing solid foundations that developers and designers can build upon. 
+The primary goal is to bridge the gap between the Bitcoin Core community and the Bitcoin Design community by establishing design foundations that developers and designers can build upon. 
 
 ### General goals
-- Establish a design system for Bitcoin Core to:
-  - Assist with on-boarding new designers and developers.
+- Establish a design system for Bitcoin Core:
+  - This will assist with on-boarding new designers and developers.
   - Streamline the design and development process and contribution.
   
-- Contribute incremental, conservative but impactful UI/UX changes to the Bitcoin Core GUI. This will help establish design flows that will be apart of the design system. 
+- Contribute incremental, conservative but impactful UI/UX changes to the Bitcoin Core (mostly the GUI / website). Doing designs alongside establishing foundations will be a good litmus test for various workflows and practices. 
   
 - Be an active design focused PR reviewer for the Bitcoin Core GUI repo.
 
@@ -126,7 +126,7 @@ This is a project I will likely collaborate with the Bitcoin design community on
 ### Do design work on bitcoincore.org
 The user journey does not start once the user downloads the GUI but rather the website its downloaded from, or rather how the user gets to the website itself. I will be applying the Bitcoin Core design system to the website a long with making it more clear what it is the GUI offers (currently it is isn't quite clear on the site).
 
-I'll be taking a development and designer roll for this.
+I'll be taking a development and designer roll for this. For privacy reasons bitcoincore.org should be CSS only (no JS). 
 
 Cobra (owner or bitcoin.org) is also working on a [Bitcoin wallet](https://twitter.com/cobrabitcoin/status/1310304498125025282?s=21) which could mean a conflict of interest when it comes to recommending wallets on bitcoin.org. Re-desigining bitcoincore.org will hopefully result in this being the primary place for end users to download Bitcoin Core binaries. 
 
