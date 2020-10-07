@@ -46,9 +46,9 @@ This design aims to re-work the currently very limited on-boarding process aroun
 
 ### [Bitcoin Core Figma account](https://www.figma.com/@BitcoinCore)
 
-I'm exploring having a 'Bitcoin Core' Figma account ([here](https://www.figma.com/@atlassian) is an example of an entity based figma account) that manages a set of master pages that include things like a style guide, designer workflows, current active designs, icons, components, community contributed art etc.
+I'm exploring having a 'Bitcoin Core' Figma account ([here](https://www.figma.com/@atlassian) is an example of an entity based figma account) that manages a [master](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoin-Core?node-id=25%3A569) file that includes things like a style guide, designer workflows, current active designs, icons, components, community contributed art etc.
 
-Community members can create a remix (figma community feature) of these master pages to use as a reference and work on their own designs. This kind of acts like a GitHub 'branch' of the master page. Remixs of pages are shown under the master page ([see here](https://www.figma.com/community/file/775423808468574409)) so if someone wants to see what community members are working on they can browse through the various remix's.
+Community members can create a remix (figma community feature) of these master files to use as a reference and work on their own designs. This kind of acts like a GitHub 'branch' of the master page. Remixs of pages are shown under the master page ([see here](https://www.figma.com/community/file/775423808468574409)) so if someone wants to see what community members are working on they can browse through the various remix's.
 
 This account would have a maintainer(s) who can update the master pages as needed. An issue with this approach is it is hard to keep track of what is updated (version control isn't that great, paid Figma does it better, need to explore this further though) and when and by who (maintainers could change what they want at will). Everyone would have their own 'fork' (in the form of a remix) though, so if anything major contentious changes are made community members could speak out and switch to the appropriate 'fork' if a consensus is met. Discussions will on GitHub repo that is dedicated Bitcoin Core Design as to not divide designer and developer input.
 
