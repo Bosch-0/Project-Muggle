@@ -44,7 +44,7 @@ This design aims to re-work the currently very limited on-boarding process aroun
 ### [GUI create wallet designs v1.0](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)     
 - This design aims to clean up the current create wallet user flow by adding clearer descriptions of things like the wallet types and details around encrypting your private keys. 
 
-### [Bitcoin Core Figma account](https://www.figma.com/file/FJ02rY3m8V9ZCDvoXjW39W/Bitcoin-Core?node-id=25%3A569)
+### [Bitcoin Core Figma account](https://www.figma.com/@BitcoinCore)
 
 I'm exploring having a 'Bitcoin Core' Figma account ([here](https://www.figma.com/@atlassian) is an example of an entity based figma account) that manages a set of master pages that include things like a style guide, designer workflows, current active designs, icons, components, community contributed art etc.
 
