@@ -1,9 +1,11 @@
 # Bitcoin-Core-Design-Foundations [WIP] 
-Bitcoin Core currently lacks design foundations. This has impeded on-boarding designers and intergrating the design and development process. With no design foundations, designers are unlikely to contribute designs. Without designers, developers may intergrate unfounded design decisions resulting in techincal debt. Establishing design foundations will prevent these issues occuring and streamline the design process. 
+Bitcoin Core currently lacks design foundations. This has impeded on-boarding designers and integrating the design and development process. With no design foundations, designers are unlikely to contribute designs. Without designers, developers may integrate unfounded design decisions resulting in technical debt. Establishing design foundations will prevent these issues occurring and streamline the design process. 
 
-My design philosophy for core is to find a middle ground between technical prowess and a clean user experience that beginner users can be intuitively guided through. I do not see core (or more specifically the GUI) as being a flashy node product like umbrel or mynode, but rather a Swiss-army knife of sorts that has various tools that can cater to a wide range of users needs whether technical or beginner. The Bitcoin Core community has done / is doing some phenomenal work for Bitcoin and I believe with good design on their side can be a driving force for implementing new features, terminology and practices to the wider Bitcoin ecosystem.
+#### Why not start re-designing the GUI from scratch now?
 
-This document will be updated and grow as projects finish and time goes.
+Like code, designs should also peer reviewed by as many eyes as possible. Having design foundations established will help on-board designers. Having more desgin contributors will result in more robust designs.
+
+This repo will be periodically updated.
 
 ## Goals
 The primary goal is to bridge the gap between the Bitcoin Core community and the Bitcoin Design community by establishing design foundations that developers and designers can build upon. 
