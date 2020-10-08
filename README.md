@@ -1,38 +1,12 @@
-# Bitcoin-Core-Design-Foundations [WIP] 
+# Establishing Bitcoin Core Design foundations [WIP] 
 Bitcoin Core currently lacks design foundations. This has impeded on-boarding designers and integrating the design and development process. With no design foundations, designers are unlikely to contribute designs. Without designers, developers may integrate unfounded design decisions resulting in technical debt. Establishing design foundations will prevent these issues occurring and streamline the design process. 
 
-#### Why not start re-designing the GUI from scratch now?
+Like code, designs should be peer reviewed by as many eyes as possible. Currently Bitcoin Core has few design focused contributors. Having design foundations established will help on-board designers. It will also assist developers understand the design process. Having more designer contributors will result in more robust designs. 
 
-Like code, designs should also peer reviewed by as many eyes as possible. Having design foundations established will help on-board designers. Having more desgin contributors will result in more robust designs.
+This repo will keep track of efforts made in establishing these foundations. It will be periodically updated.
 
-This repo will be periodically updated.
-
-## Goals
-The primary goal is to bridge the gap between the Bitcoin Core community and the Bitcoin Design community by establishing design foundations that developers and designers can build upon. 
-
-### General goals
-- Establish a design system for Bitcoin Core:
-  - This will assist with on-boarding new designers and developers.
-  - Streamline the design and development process and contribution.
-  
-- Contribute incremental, conservative but impactful UI/UX changes to the Bitcoin Core (mostly the GUI / website). Doing designs alongside establishing foundations will be a good litmus test for various workflows and practices. 
-  
-- Be an active design focused PR reviewer for the Bitcoin Core GUI repo.
-
-- Keeping dialogues going between developers and designers around UI/UX decisions. 
-
-- Represent end users in many conversations on GitHub / IRC / Slack that shape the Bitcoin Core GUI. 
-
-- Collaborate with Bitcoin Core design researchers such as Jamaal when desiging for the GUI. [Jamaal’s Project Horizon.](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#)
-
-- Apply what I learn working on designs with Bitcoin Core to the [Bitcoin Design Guide.](https://github.com/BitcoinDesign/Guide)
-  - An example being the section on Open Design. Insights gained from implementing designs within Core will likely be useful.
-
-## Timeline
-Aiming to have design foundations established for Bitcoin Core over the next 6 months. During this time I will also be working on many UI/UX improvements which will assist with developing said foundations. Implementation of designs into the GUI
-
-## Active work
-Below is what I am actively working on for Bitcoin Core. Many of these have been broken up into smaller versions to limit technical debt and align with the conservative and incremental way in which Bitcoin Core is developed.
+## Goal
+Establish design foundations for Bitcoin Core over the next 6 months. Below are methods I am emplyoing to acheive this goal.
 
 ### Bitcoin Core design system v1.0
 A design system will be pivotal in on-boarding new designers and making the design implementation process more seamless. v1.0 will only focus on branding and content guidelines as well as provide a resources library for things like figma files, templates, a glossary, guides, presentation kits and designer workflows.
