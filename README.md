@@ -8,12 +8,15 @@ This repo will keep track of efforts made in establishing these foundations. It 
 ## Goal / timeline
 Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
 
-### Establish a Bitcoin Core design system
-A design system will be pivotal in on-boarding new designers and making the design implementation process more seamless. v1.0 will only focus on branding and content guidelines as well as provide a resources library for things like figma files, templates, a glossary, guides, presentation kits and designer workflows.
+### Establish a Bitcoin Core design system 
+A design system has many definitions. But, I am quite fond of the Nielsen Norman Group's definition below:
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
-Aiming to develop this design system using the react based design system builder [Catalog](https://www.catalog.style/) hosted on GitHub pages that anyone can contribute to. An optional domain name could bitcoincore.design. I chose Catalog because is quite intuitive to use so non-technical designers should not have an issue contributing. Furthermore, many designers are also familiar with web frame works like React making more technical changes easier to do.
+Design systems may also cover topics such as branding, content and resources. [Atlassian's design system](https://atlassian.design/) is an example of a more comprehensive design system.
+
+A design system is design foundations in and of itself. Much of the action items below this will feed back into this design system. Having a design system will be pivotal in on-boarding new designers. A design system will make developing, contributing and testing designs seamless. 
+
 
 ### [GUI on-boarding wizard designs v1.0](https://github.com/bitcoin-core/gui/issues/81)
 This design aims to re-work the currently very limited on-boarding process around setting up your core node. Currently users are thrown into the GUI with very little guidance as to what is going on.
