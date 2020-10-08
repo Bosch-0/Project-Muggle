@@ -5,11 +5,13 @@ Like code, designs should be peer reviewed by as many eyes as possible. Currentl
 
 This repo will keep track of efforts made in establishing these foundations. It will be periodically updated.
 
-## Goal
-Establish design foundations for Bitcoin Core over the next 6 months. Below are methods I am emplyoing to acheive this goal.
+## Goal / timeline
+Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
 
-### Bitcoin Core design system v1.0
+### Establish a Bitcoin Core design system
 A design system will be pivotal in on-boarding new designers and making the design implementation process more seamless. v1.0 will only focus on branding and content guidelines as well as provide a resources library for things like figma files, templates, a glossary, guides, presentation kits and designer workflows.
+
+> Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
 Aiming to develop this design system using the react based design system builder [Catalog](https://www.catalog.style/) hosted on GitHub pages that anyone can contribute to. An optional domain name could bitcoincore.design. I chose Catalog because is quite intuitive to use so non-technical designers should not have an issue contributing. Furthermore, many designers are also familiar with web frame works like React making more technical changes easier to do.
 
