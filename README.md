@@ -8,7 +8,7 @@ This repo will keep track of efforts made in establishing these foundations. It 
 ## Goal / timeline
 Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
 
-## Establish Bitcoin Core design system 
+## Establish a Bitcoin Core design system 
 A design system has many definitions. But, I am quite fond of the Nielsen Norman Group's definition below:
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
@@ -23,11 +23,11 @@ Why Catalog? Making changes is easy for non-technical people ([see](https://docs
 
 I've chosen to break development of the design system into stages. This is to limit overhead and to work within technical constraints currently in Core. Those being around the GUI and what Qt framework it will use going forward. Currently it uses Qt Widgets which has many operating system design limitations. Qt QML is the alterantive which gives much more design flexibility. Discussions are currently underway regarding switching from [Qt Widgets to Qt QML](https://github.com/bitcoin/bitcoin/pull/16883).
 
-**Version 1.0** 
+### Version 1.0
 
 Version 1.0 focuses on branding, content and developing a resources library. The branding section will focus on things like mission and personality. As well as offer guidance on how to use the Bitcoin Core logo. The content section will offer guidelines around language, grammar, and writing style. It will also offer a glossary for definitions of words used by Bitcoin Core. The resources library will include Figma files, templates, guides, presentation kits and much more.
 
-**Version 2.0**
+### Version 2.0
 
 Version 2.0 focuses on components, patterns, colors, iconography, accessibility and typography. Version 2.0 will focus on components, patterns, colors, iconography, accessibility and typography. Work on this version is being held off until the Qt Widgets/QML discussion unfolds some more. Which Qt framework is chosen will impact these sections of the design system. 
 
