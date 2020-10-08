@@ -8,20 +8,39 @@ This repo will keep track of efforts made in establishing these foundations. It 
 ## Goal / timeline
 Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
 
-### Establish a Bitcoin Core design system 
+## Establish Bitcoin Core design system 
 A design system has many definitions. But, I am quite fond of the Nielsen Norman Group's definition below:
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
 Design systems may also cover topics such as branding, content and resources. [Atlassian's design system](https://atlassian.design/) is an example of a more comprehensive design system.
 
-A design system is design foundations in and of itself. Much of the action items below this will feed back into this design system. Having a design system will be pivotal in on-boarding new designers. A design system will make developing, contributing and testing designs seamless. 
+A design system is design foundations in and of itself. Much of the action items below this will feed back into this design system. Having a design system will be pivotal in on-boarding new designers. A design system will make developing, contributing and testing designs seamless.
+
+The React based app  [Catalog](https://www.catalog.style/) will be used to develop the design system. GitHub pages will host the app and be open for anyone to contribute. An tenative domain for this app could be bitcoincore.design
+
+Why Catalog? Making changes is easy for non-technical people ([see](https://docs.catalog.style/) docs). It also uses React which many designers are familar with. 
+
+I've chosen to break development of the design system into stages. This is to limit overhead and to work within technical constraints currently in Core. Those being around the GUI and what Qt framework it will use going forward. Currently it uses Qt Widgets which has many operating system design limitations. Qt QML is the alterantive which gives much more design flexibility. Discussions are currently underway regarding switching from [Qt Widgets to Qt QML](https://github.com/bitcoin/bitcoin/pull/16883).
+
+**Version 1.0** 
+Version 1.0 focuses on branding, content and developing a resources library. The branding section will focus on things like mission and personality. As well as offer guidance on how to use the Bitcoin Core logo. The content section will offer guidelines around language, grammar, and writing style. It will also offer a glossary for definitions of words used by Bitcoin Core. The resources library will include Figma files, templates, guides, presentation kits and much more.
+
+**Version 2.0**
+Version 2.0 focuses on components, patterns, colors, iconography, accessibility and typography. Version 2.0 will focus on components, patterns, colors, iconography, accessibility and typography. Work on this version is being held off until the Qt Widgets/QML discussion unfolds some more. Which Qt framework is chosen will impact these sections of the design system. 
+
+## Design GUI onboarding wizard
+Currently the Bitcoin Core GUI has a limited onboarding process. Onboarding is a crucial step for any digital app to educate the users about the product. Currently users are thrown into the GUI with little guidance. The Bitcoin Core GUI has many features that can be confusing to new users. A well crafted onboarding process can help clarify these features for users. 
+
+The onboarding designs are broken up into versions. This limits technical overhead making it easier for developers to implement designs. Core moves in calculated and incremental steps so atomizing these designs makes sense. 
+
+**Version 1.0**
+Version 1.0 focuses on re-working the current content. This is to make it more clear to users about what they actions they are taking / trade offs they ar making. 
 
 
-### [GUI on-boarding wizard designs v1.0](https://github.com/bitcoin-core/gui/issues/81)
-This design aims to re-work the currently very limited on-boarding process around setting up your core node. Currently users are thrown into the GUI with very little guidance as to what is going on.
+**Version 2.0**
 
-### [GUI create wallet designs v1.0](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)     
+## [GUI create wallet designs v1.0](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)     
 - This design aims to clean up the current create wallet user flow by adding clearer descriptions of things like the wallet types and details around encrypting your private keys. 
 
 ### [Bitcoin Core Figma account](https://www.figma.com/@BitcoinCore)
@@ -76,11 +95,6 @@ Here are some minor design decions I have made / in the process of making. Pleas
 
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
 
-## Planned / early stage work
-
-### Bitcoin Core design system v2.0
-
-This will build on v1.0 and focus on components and patterns as well as foundations like colors, iconography, accessibility and typography. I am currently holding off working on these sections due to the discussions being had around switching from [Qt Widgets to Qt QML](https://github.com/bitcoin/bitcoin/pull/16883) which have very different design constraints and will determine what direction to take for these parts of the design system. 
 
 ### GUI on-boarding designs v2.0
 v2.0 will focus on implementing the create wallet flow (v.1.0 and v2.0) alongside setting up your node. This will include hardware wallet integration and the ability to make watch-only wallets by importing descriptors.  
