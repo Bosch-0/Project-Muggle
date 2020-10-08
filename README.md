@@ -23,7 +23,7 @@ Why Catalog? Making changes is easy for non-technical people ([see](https://docs
 
 I've chosen to break development of the design system into stages. This is to limit overhead and to work within technical constraints currently in Core. Those being around the GUI and what Qt framework it will use going forward. Currently it uses Qt Widgets which has many operating system design limitations. Qt QML is the alterantive which gives much more design flexibility. Discussions are currently underway regarding switching from [Qt Widgets to Qt QML](https://github.com/bitcoin/bitcoin/pull/16883).
 
-**[Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15)** 
+**Version 1.0** 
 
 Version 1.0 focuses on branding, content and developing a resources library. The branding section will focus on things like mission and personality. As well as offer guidance on how to use the Bitcoin Core logo. The content section will offer guidelines around language, grammar, and writing style. It will also offer a glossary for definitions of words used by Bitcoin Core. The resources library will include Figma files, templates, guides, presentation kits and much more.
 
@@ -36,16 +36,27 @@ Currently the Bitcoin Core GUI has a limited onboarding process. Onboarding is a
 
 The onboarding designs are broken up into versions. This limits technical overhead making it easier for developers to implement designs. Core moves in calculated and incremental steps so atomizing these designs makes sense. 
 
-**Version 1.0**
+**[Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15)**
+  
+
+**[Version 2.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A502)**
+
+v2.0 will focus on implementing the create wallet flow (v.1.0 and v2.0) alongside setting up your node. This will include hardware wallet integration and the ability to make watch-only wallets by importing descriptors.
+
+## Redesign GUI create wallet flow
+
+
+[issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626) 
+
+**[Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)**
+
 Version 1.0 focuses on re-working the current content. This is to make it more clear to users about what they actions they are taking / trade offs they ar making. 
 
+**[Version 2.0]()**
 
-**Version 2.0**
+v2.0 will extend the v1.0 designs by adding hardware wallet UI as well as the ability to import various descriptors such as xpubx for watch only-wallets. This will be designed alongside GUI on-boarding v2.0 as much of the flow will also be apart of on-boarding 2.0. 
 
-## [GUI create wallet designs v1.0](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)     
-- This design aims to clean up the current create wallet user flow by adding clearer descriptions of things like the wallet types and details around encrypting your private keys. 
-
-### [Bitcoin Core Figma account](https://www.figma.com/@BitcoinCore)
+## [Bitcoin Core Figma account](https://www.figma.com/@BitcoinCore)
 
 I'm exploring having a 'Bitcoin Core' Figma account ([here](https://www.figma.com/@atlassian) is an example of an entity based figma account) that manages a [master](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoin-Core?node-id=25%3A569) file that includes things like a style guide, designer workflows, current active designs, icons, components, community contributed art etc.
 
@@ -53,21 +64,21 @@ Community members can create a remix (figma community feature) of these master f
 
 This account would have a maintainer(s) who can update the master pages as needed. An issue with this approach is it is hard to keep track of what is updated (version control isn't that great, paid Figma does it better, need to explore this further though) and when and by who (maintainers could change what they want at will). Everyone would have their own 'fork' (in the form of a remix) though, so if anything major contentious changes are made community members could speak out and switch to the appropriate 'fork' if a consensus is met. Discussions will on GitHub repo that is dedicated Bitcoin Core Design as to not divide designer and developer input.
 
-### Designer documentation
+## Documentation
 Write a design_process.md file to merge into core, similar to the translation_process.md file which outlines how to contribute translations to core. This will be a blend of the design workflow as well as some general GH housekeeping rules to follow. 
 
 Icon policy documentation on how to contribute / implement icons into the GUI repo - this will be for both developers and designers. 
 
 [Design workflow documentation](https://www.figma.com/file/si2C2uAPyGUHrvdnkJtmI5/Bitcoin-Core-Figma-Workflow?node-id=718%3A369). This will be included on GitHub, figma and the design system.
 
-### Designer guides
+## Designer guides
 All guides will be moved from Medium to my own self-hosted site soon. They will also be published on my GitHub account within an appropriate repo (likely the Bitcoin Core Design repo mentioned in the Bitcoin Core Figma account discussion above). 
 
 - Compiling the Bitcoin Core GUI from source for designers. One guide for each major OS ([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
 
 - Create a design issue template for GUI repo. This will help designers provide the right details of their designs so they get appropriate feedback from the community, especially developers.
 
-### Design discussions
+## Design discussions
 Many Bitcoin Core design discussions may never go anywhere for various technical / historical / philosophical reasons. However, it's important to have historical context so that future designers getting involved do not repeat the same questions. Below are some discussions I've started / will start that may or may not be feasible but are worth being discussed for future reference. This list will grow as time goes on. Discussions will be had on various platforms such as GitHub, StackExchange and Bitcointalk. Summary's of discussions will be added as they unfold. 
 
 - [Bitcoin Core Branding](https://github.com/bitcoin-core/gui/issues/89).
@@ -86,7 +97,7 @@ Many Bitcoin Core design discussions may never go anywhere for various technical
 
 - Shipping the GUI with Tor binaries that execute on launching. Currently users need to have Tor running before the 'default Tor mode' works out of the box. Many users are likely to not have Tor downloaded but turn on the default Tor option giving them a false sense of privacy. Shipping with the GUI would improve UX around this. 
 
-### Minor design work
+## Minor design work
 Here are some minor design decions I have made / in the process of making. Please view my Github for a deeper dive on discussions / suggestions I've made.
 
 - Added a Tor icon for when all network connections are through the Tor network [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
@@ -96,13 +107,7 @@ Here are some minor design decions I have made / in the process of making. Pleas
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
-
-
-### GUI on-boarding designs v2.0
-v2.0 will focus on implementing the create wallet flow (v.1.0 and v2.0) alongside setting up your node. This will include hardware wallet integration and the ability to make watch-only wallets by importing descriptors.  
-
-### GUI create wallet designs v2.0
-v2.0 will extend the v1.0 designs by adding hardware wallet UI as well as the ability to import various descriptors such as xpubx for watch only-wallets. This will be designed alongside GUI on-boarding v2.0 as much of the flow will also be apart of on-boarding 2.0. 
+ 
 
 ### GUI internal designs for HWI
 This will likely occur in parallel to v2.0 of the create wallet designs which integrates HWI UI when creating a wallet. This will include things like signing tx's within the GUI using a hardware wallet. 
