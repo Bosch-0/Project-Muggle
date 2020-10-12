@@ -31,6 +31,14 @@ Version 1.0 focuses on branding, content and developing a resources library. The
 
 Version 2.0 focuses on components, patterns, colors, iconography, accessibility and typography. Version 2.0 will focus on components, patterns, colors, iconography, accessibility and typography. Work on this version is being held off until the Qt Widgets/QML discussion unfolds some more. Which Qt framework is chosen will impact these sections of the design system. 
 
+## Bitcoin Core Figma account [Link](https://www.figma.com/@BitcoinCore)
+
+I'm exploring having a 'Bitcoin Core' Figma account ([here](https://www.figma.com/@atlassian) is an example of an entity based figma account) that manages a [master](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoin-Core?node-id=25%3A569) file that includes things like a style guide, designer workflows, current active designs, icons, components, community contributed art etc.
+
+Community members can create a remix (figma community feature) of these master files to use as a reference and work on their own designs. This kind of acts like a GitHub 'branch' of the master page. Remixs of pages are shown under the master page ([see here](https://www.figma.com/community/file/775423808468574409)) so if someone wants to see what community members are working on they can browse through the various remix's.
+
+This account would have a maintainer(s) who can update the master pages as needed. An issue with this approach is it is hard to keep track of what is updated (version control isn't that great, paid Figma does it better, need to explore this further though) and when and by who (maintainers could change what they want at will). Everyone would have their own 'fork' (in the form of a remix) though, so if anything major contentious changes are made community members could speak out and switch to the appropriate 'fork' if a consensus is met. Discussions will on GitHub repo that is dedicated Bitcoin Core Design as to not divide designer and developer input.
+
 ## Design GUI onboarding wizard
 Currently the Bitcoin Core GUI has a limited onboarding process. Onboarding is a crucial step for any digital app to educate the users about the product. Currently users are thrown into the GUI with little guidance. The Bitcoin Core GUI has many features that can be confusing to new users. A well crafted onboarding process can help clarify these features for users. 
 
@@ -38,31 +46,24 @@ The onboarding designs are broken up into versions. This limits technical overhe
 
 **[Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15)**
   
+Version 1.0 reworks the current limited onboarding. It focuses on educating the user about the GUI and running a node. 
 
+**IMAGE GOES HERE**
+  
 **[Version 2.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A502)**
 
-v2.0 will focus on implementing the create wallet flow (v.1.0 and v2.0) alongside setting up your node. This will include hardware wallet integration and the ability to make watch-only wallets by importing descriptors.
+Version 2.0 will add to 1.0 by introducing a basic create wallet flow to the onboarding process. This wallet flow may include HWW integration depending [if its merged](https://github.com/bitcoin-core/gui/pull/4). 
 
 ## Redesign GUI create wallet flow
+The current create wallet user flow does little to educate the user about what it is they are doing. Creating a wallet is an important action all Bitcoin users undertake. Wallet creation comes with many caveats and intricacies. Without educating users through the process it's likely they will costly errors.
 
-
-[issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626) 
-
-**[Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)**
+**[Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)[issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)**
 
 Version 1.0 focuses on re-working the current content. This is to make it more clear to users about what they actions they are taking / trade offs they ar making. 
 
-**[Version 2.0]()**
+**Version 2.0**
 
-v2.0 will extend the v1.0 designs by adding hardware wallet UI as well as the ability to import various descriptors such as xpubx for watch only-wallets. This will be designed alongside GUI on-boarding v2.0 as much of the flow will also be apart of on-boarding 2.0. 
-
-## [Bitcoin Core Figma account](https://www.figma.com/@BitcoinCore)
-
-I'm exploring having a 'Bitcoin Core' Figma account ([here](https://www.figma.com/@atlassian) is an example of an entity based figma account) that manages a [master](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoin-Core?node-id=25%3A569) file that includes things like a style guide, designer workflows, current active designs, icons, components, community contributed art etc.
-
-Community members can create a remix (figma community feature) of these master files to use as a reference and work on their own designs. This kind of acts like a GitHub 'branch' of the master page. Remixs of pages are shown under the master page ([see here](https://www.figma.com/community/file/775423808468574409)) so if someone wants to see what community members are working on they can browse through the various remix's.
-
-This account would have a maintainer(s) who can update the master pages as needed. An issue with this approach is it is hard to keep track of what is updated (version control isn't that great, paid Figma does it better, need to explore this further though) and when and by who (maintainers could change what they want at will). Everyone would have their own 'fork' (in the form of a remix) though, so if anything major contentious changes are made community members could speak out and switch to the appropriate 'fork' if a consensus is met. Discussions will on GitHub repo that is dedicated Bitcoin Core Design as to not divide designer and developer input.
+Version 2.0 focuses on adding extra features to the basic create wallet flow. This includes things like HWW integration and descriptor imports. 
 
 ## Documentation
 Write a design_process.md file to merge into core, similar to the translation_process.md file which outlines how to contribute translations to core. This will be a blend of the design workflow as well as some general GH housekeeping rules to follow. 
