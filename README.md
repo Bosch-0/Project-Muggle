@@ -6,11 +6,14 @@ Like code, designs should be peer reviewed by as many eyes as possible. Currentl
 This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on any of the below projects reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) 
 
 
+## Goal / timeline
+Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
+
+
+
 ---
 
 
-## Goal / timeline
-Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
 
 ## Establish a Bitcoin Core design system 
 A design system has many definitions. But, I am quite fond of the Nielsen Norman Group's definition below:
@@ -35,24 +38,24 @@ Currently the Bitcoin Core GUI has a limited onboarding process. Onboarding is a
 
 The onboarding designs are broken up into versions. This limits technical overhead making it easier for developers to implement designs. Core moves in calculated and incremental steps so atomizing these designs makes sense. 
 
-### [Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15)
+### [Version 0.1](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15)
 Version 1.0 reworks the current limited onboarding. It focuses on educating the user about the GUI and running a node. 
 
 **INSERT IMAGE**
   
-### [Version 2.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A502)
+### [Version 0.2](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A502)
 Version 2.0 will add to 1.0 by introducing a basic create wallet flow to the onboarding process. This wallet flow may include HWW integration depending [if its merged](https://github.com/bitcoin-core/gui/pull/4). 
 
 
 ## Redesign GUI create wallet flow
 The current create wallet user flow does little to educate the user about what it is they are doing. Creating a wallet is an important action all Bitcoin users undertake. Wallet creation comes with many caveats and intricacies. Without educating users through the process it's likely they will costly errors.
 
-### [Version 1.0](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)
+### [Version 0.1](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)
 Version 1.0 focuses on re-working the current content. This is to make it more clear to users about what they actions they are taking / trade offs they are making. This version has been shared on GitHub for feedback [issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)
 
 **INSERT IMAGE**
 
-### Version 2.0
+### [Version 0.2](#)
 Version 2.0 focuses on adding extra features to the basic create wallet flow. Examples include HWW integration and descriptor imports. 
 
 
@@ -125,12 +128,9 @@ Many Bitcoin Core design discussions may never go anywhere for various technical
 ## Minor design contributions
 These are minor design contributions.
 
-- Added a Tor icon for when all network connections are through the Tor network [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
-
+- Added Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
 - Minor changes to the create wallet section of the GUI [PR #96](https://github.com/bitcoin-core/gui/pull/96)
-
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
-
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
 
 
