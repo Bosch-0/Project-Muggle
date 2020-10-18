@@ -34,8 +34,10 @@ A major development bottleneck for Bitcoin Core is the limited amount of PR test
 
 
 
-## Collaborate with researchers
-A recent square crypto design grantee Jamaal is conducting design research around who uses the Bitcoin Core wallet. I'll be actively collaborating with Jamaal when making design decisions around the Bitcoin Core wallet. Here is a link to his [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#).
+## Research
+The Bitcoin Core wallet (GUI / CLI) offers a range of UX constraints not seen in conventional Bitcoin wallets. Some examples being the use of hardened Hierarchical Deterministic Wallets
+
+A recent square crypto design grantee Jamaal is [conducting design research](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) around who uses the Bitcoin Core wallet. I'll be actively collaborating with Jamaal were relevant.
 
 A lot of research is also being conducted by the Bitcoin Design community in establishing a Bitcoin Design guide. I'll be actively applying insights relevant to the design of Bitcoin Core. 
 
