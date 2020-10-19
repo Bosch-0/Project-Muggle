@@ -35,11 +35,11 @@ A major development bottleneck for Bitcoin Core is the limited amount of PR test
 
 
 ## Research
-The Bitcoin Core wallet (GUI / CLI) offers a range of UX constraints not seen in conventional Bitcoin wallets. Some examples being the use of hardened Hierarchical Deterministic Wallets
+The Bitcoin Core wallet (GUI / CLI) offers a range of UX constraints not seen in conventional Bitcoin wallets. An example being the use of hardened hierarchical deterministic wallets. This makes it unable to export xpubs making things like setting up a multisig wallet using Bitcoin Core GUI as a signer difficult. Another example is Bitcoin Core's lack of support of BIP39 mnemonics, causing many interoperability issues with other wallets. Though these are not unfounded decisions and in practically all cases have been done to increase security. Due to the unique nature of the Bitcoin Core wallet, designers must build UI/UX from the ground up working within these constraints. I will be actively researching how to best go about maximixing UX in the Bitcoin Core wallet within these technical constraints. My aim is to have Bitcoin Core be a refernce implemenation for UI/UX best practices when desiging a Bitcoin wallet like Bitcoin Core. 
 
 A recent square crypto design grantee Jamaal is [conducting design research](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) around who uses the Bitcoin Core wallet. I'll be actively collaborating with Jamaal were relevant.
 
-A lot of research is also being conducted by the Bitcoin Design community in establishing a Bitcoin Design guide. I'll be actively applying insights relevant to the design of Bitcoin Core. 
+Research is also being conducted by the Bitcoin Design community in establishing a Bitcoin Design guide. I'll be actively applying insights relevant to the design of Bitcoin Core. 
 
 
 
@@ -50,13 +50,12 @@ A lot of research is also being conducted by the Bitcoin Design community in est
 ## Design work
 
 
-
+-may work on designs on other open source Bitcoin projects for more rapid prototyping for core. 
 
 ## QML based GUI
 This is a major project that will involve a big face lift of the GUI. Switching to Qt QML from Qt widgets (details above) is still being discussed so work on this is on hold until that discussion unfolds. ([WIP PR](https://github.com/bitcoin/bitcoin/pull/16883)). It's likely I will have the design system established by the QML integration (if it happens) which I can apply to the QML designs. Below are some rough ideas that I will be exploring for this design:
 
-- Aiming to design a very minimilist, possibly monochrome, to the point application. I think this aligns well with the neutral and conservative nature of the Bitcoin Core community. 
-- Regarding features
+- Aiming to design a very minimilist, monochrome, to the point application. I think this aligns well with the neutral and conservative nature of the Bitcoin Core community. 
 
 
 
@@ -103,7 +102,10 @@ Once the GUI has a basic HWW create wallet flow UI implemented, multisig UI is t
 
 
 ## GUI descriptor UI 
-Descriptor wallets which are included in the next major Bitcoin Core release (0.21) offer a wide range of
+Descriptor wallets which are included in the next major Bitcoin Core release (0.21) offer a wide range of UX implications. There does not yet exist any reference UI/UX best practices for working with descriptors so this project will involve quite a bit of research. Some examples of UX improvements descriptors can offer are below:
+
+- Easier multisig backups.
+- Better wallet management. 
 
 
 
@@ -126,6 +128,7 @@ The primary aim of this project is to create an open source icon library that th
 ## Documentation / Guides
 
 ### Documentation
+
 
 - design_process.md for the bitcoin-core/gui repo. This will give guidance to designers contributing designs to Bitcoin Core. 
 - Icon_policy.md on how to contribute / implement icons into the GUI repo. 
