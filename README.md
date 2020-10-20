@@ -48,9 +48,9 @@ Research is also being conducted by the Bitcoin Design community in establishing
 
 ## 🎨 Design work
 
--may work on designs on other open source Bitcoin projects for more rapid prototyping for core.
--Testing workflows that will feed into design system.
--
+- Work on designs on other open source Bitcoin projects for more rapid prototyping for core.
+- Testing workflows that will feed into design system.
+- A project like Bitcoin Core needs incremental, minor design additions to prevent too much overhead but avoid being too small to prevent bikeshedding. Bikeshedding at the beginning will likely occur while design proccesses are worked out. 
 
 ### QML based GUI
 This is a major project that will involve a big face lift of the GUI. Switching to Qt QML from Qt widgets (details above) is still being discussed so work on this is on hold until that discussion unfolds. ([WIP PR](https://github.com/bitcoin/bitcoin/pull/16883)). It's likely I will have the design system established by the QML integration (if it happens) which I can apply to the QML designs. Below are some rough ideas that I will be exploring for this design:
