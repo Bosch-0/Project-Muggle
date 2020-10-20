@@ -1,6 +1,7 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
-## What is Project Muggle?
+## What is Project Muggle? 🧙‍
+
 
 Bitcoin Core currently lacks design foundations. This has impeded on-boarding designers and integrating the design and development process. With no design foundations, designers are unlikely to contribute designs. Without designers, developers may integrate unfounded design decisions resulting in technical debt. Establishing design foundations will prevent these issues occurring and streamline the design process. 
 
@@ -11,7 +12,7 @@ This repo will keep track of efforts made in establishing these foundations. It 
 
 
 ## Goal / timeline
-Establish design foundations for Bitcoin Core over the next 6 months (as of October 2020). Below are methods I am emplyoing to acheive this goal.
+Establish design foundations for Bitcoin Core over the next 6 months (as of November 2020). Below are methods I am emplyoing to acheive this goal.
 
 
 
