@@ -1,19 +1,16 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
 ## What is Project Muggle? 🧙‍
+Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience of products developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
-
-Bitcoin Core currently lacks design foundations. This has impeded on-boarding designers and integrating the design and development process. With no design foundations, designers are unlikely to contribute designs. Without designers, developers may integrate unfounded design decisions resulting in technical debt. Establishing design foundations will prevent these issues occurring and streamline the design process. 
-
-Like code, designs should be peer reviewed by as many eyes as possible. Currently Bitcoin Core has few design focused contributors. Having design foundations established will help on-board designers. It will also assist developers understand the design process. Having more designer contributors will result in more robust designs. 
-
-This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on any of the below projects reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) 
+The Bitcoin Core project currently lacks design foundations. This has prevented on-boarding of designers resulting in products developed by core lacking design direction. Without design foundations designers don't know where to start and may waste valuable time. Without designer guidance developers are likely to integrate unfounded design decisions resulting in developmental debt - both technical and design. This further constrains the open source development process. Establishing design foundations will prevent these issues occurring and help streamline the design process. 
 
 
 
-## Goal / timeline
-Establish design foundations for Bitcoin Core over the next 6 months (as of November 2020). Below are methods I am emplyoing to acheive this goal.
+## Goal
+Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design hgs bridge can be gapped making Bitcoin more accessible to the average muggle. 
 
+This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_) 
 
 
 ---
@@ -34,7 +31,9 @@ A basic [design system](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoi
 
 
 ## GUI pull request (PR) testing
-A major development bottleneck for Bitcoin Core is the limited amount of PR testers / reviewers. This issue is amplified for the GUI which is primarily manually tested. To assist with establishing workflows and bridging the designer / developer gap I will be an active design focused GUI PR tester. Insights gained by actively being involved in the development process will be valuable in establishing design foundations for core as well as be useful for the wider Bitcoin community (such as applying what I learn to the Bitcoin Design guide). Additionally, I'll be aiming to get more designers and non-designers testing PRs through user friendly guides (see documentation section below) and offer assistance to those interested.
+A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers / reviewers. This issue is amplified for the GUI which is primarily manually tested. Like code, designs should be heavily peer reviewed. This is especially so for a security focused project like Bitcoin Core with mistakes possibly resulting in a huge loss of funds. Currently, Bitcoin Core has few design focused contributors. Having design foundations established will help on-board designers. It will also assist developers understand the design process. 
+
+To assist with establishing workflows and bridging the designer / developer gap I will be an active design focused GUI PR tester. Insights gained by actively being involved in the development process will be valuable in establishing design foundations for core as well as be useful for the wider Bitcoin community (such as applying what I learn to the Bitcoin Design guide). Additionally, I'll be aiming to get more designers and non-designers testing PRs through user friendly guides (see documentation section below) and offer assistance to those interested.
 
 
 
