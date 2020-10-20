@@ -3,9 +3,7 @@
 ## 🧙‍ What is Project Muggle? 
 Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience of products developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
-The Bitcoin Core project currently has very litte design focused contributors. One way to encourage more designers to contribute to Core is by establishing some design foundations. Foundations will help on-board new designers to the project and help streamline the design process. It will also give guidance to developers and the wider community by establishing design proccesses that should be followed - much like how contributing code has quite established procedures. The Bitcoin Core project has never had a strong design focus resulting in products such as their node/wallet GUI lacking much needed design direction.
-
-Without design foundations designers don't know where to start and may waste valuable time. Without designer guidance developers are likely to integrate unfounded design decisions resulting in developmental debt - both technical and design. This further constrains the open source development process. Establishing design foundations will prevent these issues occurring and help streamline the design process. 
+The Bitcoin Core project currently has very litte design focused contributors. One way to encourage more designers to contribute to Core is by establishing some design foundations. Foundations will help on-board new designers to the project and help streamline the design process. It will also give guidance to developers and the wider community by establishing design proccesses that should be followed - much like how contributing code has quite established procedures. The Bitcoin Core project has never had a strong design focus resulting in products such as their node/wallet GUI lacking much needed design direction. Having design foundations will save time and resources by limiting developmental debt - both in terms of technical and design.
 
 
 
@@ -48,14 +46,11 @@ Research is also being conducted by the Bitcoin Design community in establishing
 
 
 
----
-
-
-
 ## 🎨 Design work
 
-
--may work on designs on other open source Bitcoin projects for more rapid prototyping for core. 
+-may work on designs on other open source Bitcoin projects for more rapid prototyping for core.
+-Testing workflows that will feed into design system.
+-
 
 ### QML based GUI
 This is a major project that will involve a big face lift of the GUI. Switching to Qt QML from Qt widgets (details above) is still being discussed so work on this is on hold until that discussion unfolds. ([WIP PR](https://github.com/bitcoin/bitcoin/pull/16883)). It's likely I will have the design system established by the QML integration (if it happens) which I can apply to the QML designs. Below are some rough ideas that I will be exploring for this design:
