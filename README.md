@@ -8,9 +8,9 @@ The Bitcoin Core project currently lacks design foundations. This has prevented 
 
 
 ## Goal
-Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design hgs bridge can be gapped making Bitcoin more accessible to the average muggle. 
+Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average muggle. 
 
-This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_) 
+This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
 
 
 ---
