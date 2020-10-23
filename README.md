@@ -62,7 +62,7 @@ Insights gained whilst building design foundations for Bitcoin Core will be cont
 
 
 ### Open source bitcoin icon library
-The primary aim of this project is to create an open source bitcoin wallet focused icon library that projects like Bitcoin Core can use in their applications. This will likely be an open initiative that project muggle and the Bitcoin Design community will work on.
+The primary aim of this project is to create an open source bitcoin centric icon library that projects like Bitcoin Core can use in their applications. This will likely be an open initiative that project muggle and the Bitcoin Design community will work on.
 
 [Link to repo](https://github.com/Bosch-0/Bitcoin-Icons)
 
