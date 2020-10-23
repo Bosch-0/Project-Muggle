@@ -8,7 +8,7 @@ The Bitcoin Core project currently has very litte design focused contributors. O
 
 
 ## 🏆 Goal of Project Muggle 
-Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average muggle. 
+Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to muggles. 
 
 This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
 
@@ -46,6 +46,13 @@ Research is also being conducted by the Bitcoin Design community in establishing
 
 
 
+## 📙 Contribute to Bitcoin Design Guide
+Insights gained whilst building design foundations for Bitcoin Core will be contrbiuted to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
+
+> The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
+
+
+
 ## 🎨 Design work
 
 - Work on designs on other open source Bitcoin projects for more rapid prototyping for core.
@@ -56,6 +63,8 @@ Research is also being conducted by the Bitcoin Design community in establishing
 
 ### Open source bitcoin icon library
 The primary aim of this project is to create an open source bitcoin wallet focused icon library that projects like Bitcoin Core can use in their applications. This will likely be an open initiative that project muggle and the Bitcoin Design community will work on.
+
+[Link to repo](https://github.com/Bosch-0/Bitcoin-Icons)
 
 
 
@@ -132,7 +141,7 @@ Descriptor wallets which are included in the next major Bitcoin Core release (0.
 text here
 
 - design_process.md for the bitcoin-core/gui repo. This will give guidance to designers contributing designs to Bitcoin Core. 
-- Icon_policy.md on how to contribute / implement icons into the GUI repo. 
+- [Icon_policy.md](https://docs.google.com/document/d/1jXWwXM71_t7zIBlTu2aOzvhGj0ZWyml_yXXzuXMHLSg/edit) on how to contribute icons to Bitcoin Core. 
 - [Design workflows](https://www.figma.com/file/si2C2uAPyGUHrvdnkJtmI5/Bitcoin-Core-Figma-Workflow?node-id=718%3A369).
 
 
@@ -173,8 +182,3 @@ Minor design contributions. These assist with establishing solid designer and de
 - Minor changes to the create wallet section of the GUI [PR #96](https://github.com/bitcoin-core/gui/pull/96)
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
-
-
-
-## 📙 Contribute to Bitcoin Design Guide
-This does not directly relate to establishing design foundations for Bitcoin Core though insights gained throughout the process will likely be valuable additions to the current WIP [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
