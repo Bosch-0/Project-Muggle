@@ -52,10 +52,10 @@ Research is also being conducted by the Bitcoin Design community in establishing
 - Testing workflows that will feed into design system.
 - A project like Bitcoin Core needs incremental, minor design additions to prevent too much overhead but avoid being too small to prevent bikeshedding. Bikeshedding at the beginning will likely occur while design proccesses are worked out. 
 
-### QML based GUI
-This is a major project that will involve a big face lift of the GUI. Switching to Qt QML from Qt widgets (details above) is still being discussed so work on this is on hold until that discussion unfolds. ([WIP PR](https://github.com/bitcoin/bitcoin/pull/16883)). It's likely I will have the design system established by the QML integration (if it happens) which I can apply to the QML designs. Below are some rough ideas that I will be exploring for this design:
 
-- Aiming to design a very minimilist, monochrome, to the point application. I think this aligns well with the neutral and conservative nature of the Bitcoin Core community. 
+
+### Open source bitcoin icon library
+The primary aim of this project is to create an open source bitcoin wallet focused icon library that projects like Bitcoin Core can use in their applications. This will likely be an open initiative that project muggle and the Bitcoin Design community will work on.
 
 
 
@@ -63,6 +63,13 @@ This is a major project that will involve a big face lift of the GUI. Switching 
 The user journey does not start once the user downloads the GUI but rather the website its downloaded from. Whilst applying the Bitcoin Core design system I aimt to improve the UI/UX of bitcoincore.org to better assist end users on the journey on using the GUI. 
 
 Cobra (owner or bitcoin.org) is working on a [Bitcoin wallet](https://twitter.com/cobrabitcoin/status/1310304498125025282?s=21) which could mean a conflict of interest when it comes to recommending wallets on bitcoin.org. With Re-desigining bitcoincore.org I am aiming for bitcoincore.org to be the primary place for end users to download the Bitcoin Core GUI.
+
+
+
+### QML based GUI
+This is a major project that will involve a big face lift of the GUI. Switching to Qt QML from Qt widgets (details above) is still being discussed so work on this is on hold until that discussion unfolds. ([WIP PR](https://github.com/bitcoin/bitcoin/pull/16883)). It's likely I will have the design system established by the QML integration (if it happens) which I can apply to the QML designs. Below are some rough ideas that I will be exploring for this design:
+
+- Aiming to design a very minimilist, monochrome, to the point application. I think this aligns well with the neutral and conservative nature of the Bitcoin Core community. 
 
 
 
@@ -113,11 +120,6 @@ Descriptor wallets which are included in the next major Bitcoin Core release (0.
 - Easier multisig backups.
 - Better wallet management. 
  
-
-
-### GUI icon library
-The primary aim of this project is to create an open source icon library that the Bitcoin Core GUI, as well as other Bitcoin wallets, can use.
-
 
 
 --- 
