@@ -31,10 +31,10 @@ PNGs are used in production due to their wide support in applications, support o
 such as JPEG.
 
 ### Source files (SVG)
-Source SVG files should be added to `src/qt/res/src` at a 24 x 24 px size.
+Source SVG files should be added to `src/qt/res/src` at 24 x 24px.
 
 ### Production files (PNG)
-Production PNG files should be added to `src/qt/res/icons` at 24 x 24 px size.
+Production PNG files should be added to `src/qt/res/icons` at 24 x 24px.
 
 **Optimizing PNGs:** All production PNG files are to be optmized before being added to Bitcoin Core. Optimizing PNG files removes various color profiles, 
 ancillary (alla) and text chunks resulting in a reduction in size of the image file losslessly (without a lowered image quality). Various PNG optimizers exist, 
