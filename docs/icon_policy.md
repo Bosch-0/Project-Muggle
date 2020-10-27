@@ -29,7 +29,7 @@ fitting elements easier using an 8-point grid system. If icons need to be scaled
 
 Overall, this makes things more efficient for designers and maintains consistency across applications. Below is an example of an icon within an 8-point grid system. Icons should remain within the live area shown below to prevent being obscurbed by other elements
 
-![Grid image]()
+![](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/Icon_grid.svg)
 
 
 ### Optimizing Production Files (PNG): 
