@@ -13,9 +13,9 @@ Icon style should follow a few basic principles to maintain consistency and clar
 
 
 ## Icon Grid
-Bitcoin Core's icon set uses a 8-point grid system which utilizes size increments of 8 (in pixels) to visually orientate elements within an icon grid. An even
+Bitcoin Core's icon set uses an 8-point grid system which utilises size increments of 8 (in pixels) to visually orientate elements within a grid. An even
 number like 8 to position icon elements makes scaling on a wide variety of devices easy and consistent. Most popular screen sizes are divisible by 8 which makes 
-fitting elements easier with an 8-point grid system. Overall, this makes things more effecient for designers and maintains consistency accross applications. 
+fitting elements easier with an 8-point grid system. Overall, this makes things more efficient for designers and maintains consistency across applications. 
 
 
 
