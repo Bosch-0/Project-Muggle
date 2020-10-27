@@ -29,7 +29,7 @@ fitting elements easier with an 8-point grid system. Overall, this makes things 
 
 
 ### Optimizing Production Files (PNG): 
-Production (PNG) files are to be optmized before being added to Bitcoin Core. Optimizing PNG files removes various color profiles, ancillary (alla) and text chunks resulting in a reduction in size of the image file losslessly (without a lowered image quality). Various PNG optimizers exist, below are some examples:
+Production (PNG) files are to be optmized before being added to Bitcoin Core. Optimizing PNG files removes various color profiles, ancillary (alla) and text chunks resulting in a reduction in size of the image file losslessly (without a lowered image quality). Any `zopflipng` / `pngcrush` PNG optimizers can be used, below are some examples:
 
 - Open source tool [ImageOptim](https://imageoptim.com/api).
 - Open source tool [Trimage](https://trimage.org/).
