@@ -29,7 +29,7 @@ fitting elements easier with an 8-point grid system. Overall, this makes things 
 
 
 ### Optimizing Production Files (PNG): 
-Production (PNG) files are to be optmized before being added to Bitcoin Core. Optimizing PNG files removes various color profiles, ancillary (alla) and text chunks resulting in a reduction in size of the image file losslessly (without a lowered image quality). Any `zopflipng` / `pngcrush` PNG optimizers can be used, below are some examples:
+Production (PNG) files are to be optmized before being added to Bitcoin Core. Optimizing PNG files removes various color profiles, ancillary (alla) and text chunks resulting in a reduction in size of the image file losslessly (without a lowered image quality). Any `zopflipng` / `pngcrush` based PNG optimizers can be used, below are some examples:
 
 - Open source tool [ImageOptim](https://imageoptim.com/api).
 - Open source tool [Trimage](https://trimage.org/).
@@ -43,14 +43,9 @@ Icons should only be added via pull request (PR) in two situations:
 - An icon used in production is being replaced with a new icon.
 - A new feature is being added to the Bitcoin Core GUI that requires the addition of a new icon.
 
-Icons (both SVG and PNG) should not be added to the repo if they are not yet used in production. If a new icon is set to be added in an upcoming PR the designer of the icon should [open an issue](https://github.com/bitcoin-core/gui/issues/new/choose) to get feedback on the design of the icon and to make sure the design is
-consistent with Bitcoin Core's iconography.  
+Icons (both SVG and PNG) should not be added to the repo if they are not yet used in production. If a new icon is set to be added in an upcoming PR, the designer of the icon should [open an issue](https://github.com/bitcoin-core/gui/issues/new/choose) to get feedback on the design and to make sure it is consistent with Bitcoin Core's iconography.  
 
-#### Source files (SVG)
-Source SVG files should be added to `src/qt/res/src` at 24x24px.
-
-#### Production files (PNG)
-Optimized production PNG files should be added to `src/qt/res/icons` at 24x24px.
+When opening a PR that adds an icon source SVG files should be added to `src/qt/res/src` at 24x24px and otimized production PNG files should be added to `src/qt/res/icons` at 24x24px.
 
 
 
