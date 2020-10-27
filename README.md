@@ -136,8 +136,8 @@ Descriptor wallets which are included in the next major Bitcoin Core release (0.
 ### Documentation
 text here
 
-- design_process.md for the bitcoin-core/gui repo. This will give guidance to designers contributing designs to Bitcoin Core. 
-- [Icon_policy.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/icon_policy.md) on how to contribute icons to Bitcoin Core. 
+- [design_process.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/design_process.md) for how to contribute designs to Bitcoin Core.
+- [icon_policy.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/icon_policy.md) on how to contribute icons to Bitcoin Core. 
 - [Design workflows](https://www.figma.com/file/si2C2uAPyGUHrvdnkJtmI5/Bitcoin-Core-Figma-Workflow?node-id=718%3A369).
 
 
