@@ -148,7 +148,7 @@ Guides will be published on Medium / GitHub and my personal site (coming soon).
 ([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
 - Create design issue template for bitcoin-core/gui. 
 
-### User guides
+### 🗺️ User guides
 The GUI can be complicated for users to navigate and some features are still primarily RPC based. I aim to create simple how-to guides for certain features of the GUI that will give simple explanations for technical topics. I will create a list below as I develop and publish ideas. 
 
 - Setting up your Bitcoin Core node 
