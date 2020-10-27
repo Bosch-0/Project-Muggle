@@ -14,15 +14,6 @@ Inkspace, Adobe illustrator, Figma, Sketch or Adobe XD.
 PNGs are used in production due to their wide support in applications, support of transparent backgrounds and better image quality than competing file types 
 such as JPEG.
 
-### Icon Style
-Icon style should follow a few basic principles to maintain consistency and clarity:
-
-- Icons should be minimal with little to no fine details. 
-- Size of icons should be 24x24px. Different sized icons sizes may be necessary in some circumstances. If 24x24 is too small or too large for the required icon placement, then the icon should be scaled up or down whilst sticking to the 8-point grid system. Testing of various icon sizes will be required to find the most optimal size that is both not too small reducing image and not too large resulting in unecessary file sizes.
-- Shapes should be consistent and avoid organic elements that do not scale well.
-- Colors should be consistent with other icons used in Bitcoin Core. 
-- Icons should should fit within the 'live area' of the icon grid - see below.
-
 ### Icon Grid
 Bitcoin Core's icon set uses an 8-point grid system which utilises size increments of 8 (in pixels) to visually orientate elements within a grid. An even
 number like 8 to position icon elements makes scaling on a wide variety of devices easy and consistent. Majority of screen sizes are divisible by 8 which makes 
@@ -31,6 +22,15 @@ fitting elements easier using an 8-point grid system. If icons need to be scaled
 Below is an example of an icon using a 8-point grid system. Icons should remain within the live area shown in red below to prevent being obscurbed by other elements.
 
 ![](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/Icon_grid.svg)
+
+### Icon Style
+Icon style should follow a few basic principles to maintain consistency and clarity:
+
+- Icons should be minimal with little to no fine details. 
+- Size of icons should be 24x24px. Different sized icons sizes may be necessary in some circumstances. If 24x24 is too small or too large for the required icon placement, then the icon should be scaled up or down whilst sticking to the 8-point grid system. Testing of various icon sizes will be required to find the most optimal size that is both not too small reducing image and not too large resulting in unecessary file sizes.
+- Shapes should be consistent and avoid organic elements that do not scale well.
+- Colors should be consistent with other icons used in Bitcoin Core. 
+- Icons should should follow an 8-point grid system.
 
 
 ### Optimizing Production Files (PNG): 
