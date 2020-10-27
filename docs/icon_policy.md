@@ -18,6 +18,7 @@ such as JPEG.
 Icon style should follow a few basic principles to maintain consistency and clarity:
 
 - Icons should be minimal with little to no fine details. 
+- Size of icons should be 24x24px. Different sized icons sizes may be necessary in some circumstances. If 24x24 is too small or too large for the required icon placement, then the icon should be scaled up or down whilst sticking to the 8-point grid system. Testing of various icon sizes will be required to find the most optimal size that is both not too small reducing image and not too large resulting in unecessary file sizes.
 - Shapes should be consistent and avoid organic elements that do not scale well.
 - Colors should be consistent with other icons used in Bitcoin Core. 
 - Icons should should fit within the 'live area' of the icon grid - see below.
@@ -54,9 +55,6 @@ If a new feature is being added to the Bitcoin Core GUI that requires a new icon
 Icons (both SVG and PNG) should not be added to the Bitcoin Core repo if they are not yet used in production.
 
 When opening a PR that adds an icon source (SVG) files should be added to `src/qt/res/src` at 24x24px and otimized production (PNG) files should be added to `src/qt/res/icons` at 24x24px. 
-
-### Icon Sizing
-Different sized icons sizes may be necessary in some circumstances. If 24x24 is too small or too large for the required icon placement, then the icon should be scaled up or down whilst sticking to the 8-point grid system. Testing of various icon sizes will be required to find the most optimal size that is both not too small reducing image and not too large resulting in unecessary file sizes.
 
 
 
