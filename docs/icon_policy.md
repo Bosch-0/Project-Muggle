@@ -1,9 +1,9 @@
 # Icon policy
 This document provides guidelines for contributing icons used in the Bitcoin Core GUI.
 
- 
 
-## Preparing Contribution
+
+## Preparing Icons
 Both an icon source file, in Scalable Vector Graphics (SVG) format, and an optimised production file, in Portable Network Graphics (PNG) format, are required for 
 each icon.
 
@@ -18,14 +18,16 @@ such as JPEG.
 Icon style should follow a few basic principles to maintain consistency and clarity:
 
 - Icons should be minimal with little to no fine details. 
-- Icon shapes should be consistent and avoid organic elements that do not scale well.
-- Icon colors should be consistent with other icons used in Bitcoin Core. 
+- Shapes should be consistent and avoid organic elements that do not scale well.
+- Colors should be consistent with other icons used in Bitcoin Core. 
 - Icons should should fit within the 'live area' of the icon grid - see below.
 
 ### Icon Grid
 Bitcoin Core's icon set uses an 8-point grid system which utilises size increments of 8 (in pixels) to visually orientate elements within a grid. An even
 number like 8 to position icon elements makes scaling on a wide variety of devices easy and consistent. Most popular screen sizes are divisible by 8 which makes 
-fitting elements easier with an 8-point grid system. Overall, this makes things more efficient for designers and maintains consistency across applications.
+fitting elements easier with an 8-point grid system. If icons need to be scaled up or down for whatever reason they should stick within multiples of 8 to maintain visual consistancy. Overall, this makes things more efficient for designers and maintains consistency across applications. Below is an example of an icon within an 8-point grid system. Icons should remain within the live area shown below to prevent being obscurbed by other elements
+
+[INSERT IMAGE]
 
 
 ### Optimizing Production Files (PNG): 
@@ -38,14 +40,21 @@ Production (PNG) files are to be optmized before being added to Bitcoin Core. Op
 
 
 ## Contributing
-Icons should only be added via pull request (PR) in two situations:
+Icons should only be added to the Bitcoin Core repo via a pull request (PR) in two situations:
 
 - An icon used in production is being replaced with a new icon.
-- A new feature is being added to the Bitcoin Core GUI that requires the addition of a new icon.
+- A feature is being added to the Bitcoin Core GUI that requires the addition of a new icon.
 
-Icons (both SVG and PNG) should not be added to the repo if they are not yet used in production. If a new icon is set to be added in an upcoming PR, the designer of the icon should [open an issue](https://github.com/bitcoin-core/gui/issues/new/choose) to get feedback on the design and to make sure it is consistent with Bitcoin Core's iconography.  
+If a new icon is designed for an upcoming or active PR, the designer of the icon should [open an issue](https://github.com/bitcoin-core/gui/issues/new/choose) to get feedback on the design and to make sure it is consistent with Bitcoin Core's iconography.
 
-When opening a PR that adds an icon source SVG files should be added to `src/qt/res/src` at 24x24px and otimized production PNG files should be added to `src/qt/res/icons` at 24x24px.
+If a new feature is being added to the Bitcoin Core GUI that requires a new icon the developer should [open an issue](https://github.com/bitcoin-core/gui/issues/new/choose) requesting an icon to be designed. 
+
+Icons (both SVG and PNG) should not be added to the Bitcoin Core repo if they are not yet used in production.
+
+When opening a PR that adds an icon source (SVG) files should be added to `src/qt/res/src` at 24x24px and otimized production (PNG) files should be added to `src/qt/res/icons` at 24x24px. 
+
+### Icon Sizing
+Different sized icons sizes may be necessary in some circumstances. If 24x24 is too small or too large for the required icon placement, then the icon should be scaled up or down whilst sticking to the 8-point grid system. Testing of various icon sizes will be required to find the most optimal size that is both not too small reducing image and not too large resulting in unecessary file sizes.
 
 
 
