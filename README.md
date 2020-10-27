@@ -141,9 +141,9 @@ text here
 
 
 ## 🗺️ Guides
-### Designer guides
 Guides will be published on Medium / GitHub and my personal site (coming soon).
 
+### Designer guides
 - Compiling the Bitcoin Core GUI from source for designers.
 ([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
 - Create design issue template for bitcoin-core/gui. 
