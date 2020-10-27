@@ -19,6 +19,8 @@ Bitcoin Core's icon set uses an 8-point grid system which utilises size incremen
 
 Below is an example of a Bitcoin Core icon using a 8-point grid system. Icons should remain within the live area shown in red below to prevent being obscured by other elements.
 
+![](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/Icon_grid.svg)
+
 ### Icon Style
 Icon style should follow a few basic principles to maintain consistency and clarity:
 
