@@ -131,10 +131,6 @@ Descriptor wallets which are included in the next major Bitcoin Core release (0.
  
 
 
---- 
-
-
-
 ## 📄 Documentation / Guides
 
 ### Documentation
