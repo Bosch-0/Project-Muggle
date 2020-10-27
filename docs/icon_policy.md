@@ -25,9 +25,9 @@ Icon style should follow a few basic principles to maintain consistency and clar
 ### Icon Grid
 Bitcoin Core's icon set uses an 8-point grid system which utilises size increments of 8 (in pixels) to visually orientate elements within a grid. An even
 number like 8 to position icon elements makes scaling on a wide variety of devices easy and consistent. Majority of screen sizes are divisible by 8 which makes 
-fitting elements easier using an 8-point grid system. If icons need to be scaled up or down for whatever reason they should stick within multiples of 8 to maintain visual consistancy.
+fitting elements easier using an 8-point grid system. If icons need to be scaled up or down for whatever reason they should stick within multiples of 8 to maintain visual consistancy. Overall, this makes things more efficient for designers and maintains consistency across applications. 
 
-Overall, this makes things more efficient for designers and maintains consistency across applications. Below is an example of an icon within an 8-point grid system. Icons should remain within the live area shown below to prevent being obscurbed by other elements
+Below is an example of an icon using a 8-point grid system. Icons should remain within the live area shown in red below to prevent being obscurbed by other elements.
 
 ![](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/Icon_grid.svg)
 
