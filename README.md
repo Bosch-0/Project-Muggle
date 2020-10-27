@@ -131,9 +131,7 @@ Descriptor wallets which are included in the next major Bitcoin Core release (0.
  
 
 
-## 📄 Documentation / Guides
-
-### Documentation
+## 📄 Documentation
 text here
 
 - [design_process.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/design_process.md) for how to contribute designs to Bitcoin Core.
@@ -141,8 +139,10 @@ text here
 - [Design workflows](https://www.figma.com/file/si2C2uAPyGUHrvdnkJtmI5/Bitcoin-Core-Figma-Workflow?node-id=718%3A369).
 
 
-### Designer Guides
-Guides will be published on Medium whilst I build my personal site (coming soon).
+
+## Guides
+### Designer guides
+Guides will be published on Medium / GitHub and my personal site (coming soon).
 
 - Compiling the Bitcoin Core GUI from source for designers.
 ([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
@@ -156,16 +156,17 @@ The GUI can be complicated for users to navigate and some features are still pri
 - Connecting you Bitcoin Core node over Tor 
 
 
+
 ## 🗯️ Design discussions
 Below are discussions started / will be started that may or may not be feasible but are worth being discussed for future reference. Discussions will be had on various platforms such as GitHub, StackExchange and Bitcointalk, links will be included to each. Outside of the scope of the below discussions I will aim to represent the end users in discussions on various platforms. 
 
 - [Bitcoin Core Branding](https://github.com/bitcoin-core/gui/issues/89).
+- [Bitcoin Core / Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
+- Switching net's within the gui [issue #78](https://github.com/bitcoin-core/gui/issues/78)
 - Bitcoin Core design system. 
 - Switching from Qt Widgets to a Qt QML GUI.
-- Are desktop nodes relevant?
-- Switching net's within the gui [issue #78](https://github.com/bitcoin-core/gui/issues/78)
+- Headless Bitcoin Core setup.
 - Splitting the GUI / CLI into separate binaries.
-- [Bitcoin Core / Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
 - Having HWI installed with GUI binaries.
 - Tor binaries shipped with GUI.
 
@@ -174,7 +175,7 @@ Below are discussions started / will be started that may or may not be feasible 
 ## 🤏 Minor design contributions
 Minor design contributions. These assist with establishing solid designer and developer workflows. 
 
-- Added Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
-- Minor changes to the create wallet section of the GUI [PR #96](https://github.com/bitcoin-core/gui/pull/96)
+- Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
+- Slight GUI UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
