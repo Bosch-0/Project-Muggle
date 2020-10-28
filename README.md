@@ -1,48 +1,58 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
 ## 🧙‍ What is Project Muggle? 
-Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience of products developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
+Project Muggle is an initiative started as part of the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
-The Bitcoin Core project currently has very litte design focused contributors. One way to encourage more designers to contribute to Core is by establishing some design foundations. Foundations will help on-board new designers to the project and help streamline the design process. It will also give guidance to developers and the wider community by establishing design proccesses that should be followed - much like how contributing code has quite established procedures. The Bitcoin Core project has never had a strong design focus resulting in products such as their node/wallet GUI lacking much needed design direction. Having design foundations will save time and resources by limiting developmental debt - both in terms of technical and design.
+The Bitcoin Core project currently has very litte design focused contributors. One way to encourage more designers to contribute to Bitcoin Core is by establishing design foundations. Foundations will help on-board new designers to the project and help streamline the design process. Design foundations will also give guidance to developers and the wider community by establishing design workflows and guidelines. The Bitcoin Core project has never had a strong design focus resulting in products such as their node/wallet GUI lacking much needed design direction. Design foundations will save already constrained time and resources by limiting developmental debt - both in terms of technical and design.
 
 
 
 ## 🏆 Goal of Project Muggle 
-Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to muggles. 
+Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average person. 
 
-This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out to me on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
+This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
+
 
 
 ---
 
 
 
-## 🌌 Design systems
-A design system has many definitions. But, I am quite fond of the Nielsen Norman Group's definition below:
+## 🌌 Design system
+A design system has many definitions. But, we are quite fond of the Nielsen Norman Group's definition below:
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
-A design system is design foundations in and of itself. Much of the projects below this will feed back into this design system. Having a design system will be assist in on-boarding new designers and will speed up the developing, contributing and testing of designs.
+A design system is design foundations in and of itself. Other initatives being worked on by Project Muggle will feed back into this design system. Having a design system will be assist in on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
 
-Project Muggle will establish two Figma native design systems for Bitcoin Core initially. One for the [Bitcoin Core GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for the [Bitcoin Core website](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). The reason two will exist initially is due to the constraints of the Qt widgets framework used by the GUI uses native operating system styling not a custom design. The GUI design system will be built with these constraints in mind. The bitcoincore.org design system will introduce a whole new custom look and feel to the website and related Bitcoin Core content (marketing, slides, branding etc.). If the GUI transitions to using a more flexible framework such as Qt QML (discussions currently underway) the GUI will adopt the website design system and work on new UI for the GUI can begin. 
+Project Muggle will establish two Figma native design systems for Bitcoin Core initially. One for the [Bitcoin Core GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for the [Bitcoin Core website](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files be hosted by a [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). The reason two will exist initially is due to the constraints of the Qt widgets framework used by the GUI uses native operating system styling not a custom design. The GUI design system will be built with these constraints in mind. The bitcoincore.org design system will introduce a whole new custom look and feel to the website and related Bitcoin Core content (marketing, slides, branding etc.). If the GUI transitions to using a more flexible framework such as Qt QML (discussions currently underway) the GUI will adopt the website design system and work on new UI for the GUI can begin. 
 
-Guidelines on how to use each of these design systems when designing will be included in the README pages of each Figma file.
+Designers can simply duplicate the design system files through Figma community and have access to all the required components and styles to begin desigining. Designers can also publish their work in progress designs as remixes creating a live catalog of what community designers are working on on the [BitcoinCore community page](https://www.figma.com/@BitcoinCore). The design process and workflows will be included in the README pages of each Figma design system file.
+
+The design system(s) will eventually be hosted on GitHub pages through a live, interactive web app showcasing design a code elements. 
 
 
 
-## 🛠️ GUI pull request (PR) testing
-A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers / reviewers. This issue is amplified for the GUI which is primarily manually tested. Like code, designs should be heavily peer reviewed. This is especially so for a security focused project like Bitcoin Core with mistakes possibly resulting in a huge loss of funds. Currently, Bitcoin Core has few design focused contributors. Having design foundations established will help on-board designers. It will also assist developers understand the design process. 
+## 🛠️ bitcoin-core/gui pull request (PR) testing
+A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified for the GUI which needs to be tested accross various operating systems manually. Additionaly, Bitcoin Core has few design focused testers / contributors resulting in the design of many PRs mostly being an afterthought or unfounded in design principlies. 
 
-To assist with establishing workflows and bridging the designer / developer gap I will be an active design focused GUI PR tester. Insights gained by actively being involved in the development process will be valuable in establishing design foundations for core as well as be useful for the wider Bitcoin community (such as applying what I learn to the Bitcoin Design guide). Additionally, I'll be aiming to get more designers and non-designers testing PRs through user friendly guides (see documentation section below) and offer assistance to those interested.
+To assist with bridging the designer / developer gap I (Bosch) will be actively testing GUI PRs as part of Project Muggle. More specifically I will give design guidance on PRs alongside testing for bugs. Insights gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
+
+Project Muggle will also be aiming to encourage more users (designers or not) to start testing PRs with well designed guides and documentation (see guides and documentation sections below). 
 
 
 
 ## 🔬 Research
-The Bitcoin Core wallet (GUI / CLI) offers a range of UX constraints not seen in conventional Bitcoin wallets. An example being the use of hardened hierarchical deterministic wallets. This makes it unable to export xpubs making things like setting up a multisig wallet using Bitcoin Core GUI as a signer difficult. Another example is Bitcoin Core's lack of support of BIP39 mnemonics, causing many interoperability issues with other wallets. Though these are not unfounded decisions and in practically all cases have been done to increase security. Due to the unique nature of the Bitcoin Core wallet, designers must build UI/UX from the ground up working within these constraints. I will be actively researching how to best go about maximixing UX in the Bitcoin Core wallet within these technical constraints. My aim is to have Bitcoin Core be a refernce implemenation for UI/UX best practices when desiging a Bitcoin wallet like Bitcoin Core. 
+The Bitcoin Core wallet has a range of novel features not present in conventional Bitcoin wallets. Project Muggle will be conducting design research as how best to devlelop the UI/UX of the Bitcoin Core wallet within these constraints.
 
-A recent square crypto design grantee Jamaal is [conducting design research](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) around who uses the Bitcoin Core wallet. I'll be actively collaborating with Jamaal were relevant.
+Project Muggle will actively collaborate with Bitcoin Core wallet research project, [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) on who the users of the Bitcoin Core wallet are were relevant. Project Muggle will also be working alongside the Bitcoin Design community throughout its research.
 
-Research is also being conducted by the Bitcoin Design community in establishing a Bitcoin Design guide. I'll be actively applying insights relevant to the design of Bitcoin Core. 
+Below are some research areas of interest:
+
+- Desigining for Bitcoin Core post 0.21.0 - Taproot, MuSig, descriptors and more.
+- UX friendly wallet backups without BIP39.
+- Multisig / HWI intergration with hardened hierarchical Deterministic Wallets.
+- Node bootstrapping. 
 
 
 
