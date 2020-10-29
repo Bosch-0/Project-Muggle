@@ -10,7 +10,7 @@ The Bitcoin Core project currently has very litte design focused contributors. O
 ## 🏆 Goal of Project Muggle 
 Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average person. 
 
-This repo will keep track of efforts made in establishing these foundations. It will be periodically updated. If you wish to collaborate on Project Muggle reach out on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
+This repo will keep track of efforts made in establishing these foundations (see below). It will be periodically updated. If you wish to collaborate on Project Muggle reach out on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
 
 
 
@@ -18,7 +18,7 @@ This repo will keep track of efforts made in establishing these foundations. It 
 
 
 
-## 🌌 Design system
+## 🌌 Bitcoin Core Design system(s)
 A design system has many definitions. But, we are quite fond of the Nielsen Norman Group's definition below:
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
@@ -160,22 +160,23 @@ The GUI can be complicated for users to navigate and some features are still pri
 
 
 ## 🗯️ Design discussions
-Below are discussions started / will be started that may or may not be feasible but are worth being discussed for future reference. Discussions will be had on various platforms such as GitHub, StackExchange and Bitcointalk, links will be included to each. Outside of the scope of the below discussions I will aim to represent the end users in discussions on various platforms. 
+Project Muggle aims to actively keep design dialogues going between the community, developers and designers.
+
+Below are some discussions that may or may not be feasible but are worth being discussed for future reference. Discussions will be had on various platforms such as GitHub, StackExchange and Bitcointalk. 
 
 - [Bitcoin Core Branding](https://github.com/bitcoin-core/gui/issues/89).
 - [Bitcoin Core / Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
 - Switching net's within the gui [issue #78](https://github.com/bitcoin-core/gui/issues/78)
-- Bitcoin Core design system. 
-- Switching from Qt Widgets to a Qt QML GUI.
+- Establishing a Bitcoin Core design system. 
+- Switching Qt framework from widgets to QML.
 - Headless Bitcoin Core setup.
-- Splitting the GUI / CLI into separate binaries.
 - Having HWI installed with GUI binaries.
 - Tor binaries shipped with GUI.
 
 
 
 ## 🤏 Minor design contributions
-Minor design contributions. These assist with establishing solid designer and developer workflows. 
+Minor design contributions.
 
 - Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
 - Slight GUI UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
