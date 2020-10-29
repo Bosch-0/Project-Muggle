@@ -35,7 +35,7 @@ The design system(s) will eventually be hosted on GitHub pages through a live, i
  
 
 
-## Bitcoincore.org
+## 🌐 Bitcoincore.org
 The user journey does not start once the user downloads the GUI but rather the website its downloaded from. Whilst applying the Bitcoin Core design system I aimt to improve the UI/UX of bitcoincore.org to better assist end users on the journey on using the GUI. 
 
 Cobra (owner or bitcoin.org) is working on a [Bitcoin wallet](https://twitter.com/cobrabitcoin/status/1310304498125025282?s=21) which could mean a conflict of interest when it comes to recommending wallets on bitcoin.org. With Re-desigining bitcoincore.org I am aiming for bitcoincore.org to be the primary place for end users to download the Bitcoin Core GUI.
@@ -47,7 +47,7 @@ Cobra (owner or bitcoin.org) is working on a [Bitcoin wallet](https://twitter.co
 
 
 
-## Open source Bitcoin icon library
+## 🟠 Open source Bitcoin icon library
 The primary aim of this project is to create an open source bitcoin centric icon library that projects like Bitcoin Core can use in their apps. This will likely be an open initiative that project muggle and the Bitcoin Design community will work on.
 
 [Link to repo](https://github.com/Bosch-0/Bitcoin-Icons)
