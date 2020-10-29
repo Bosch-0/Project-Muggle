@@ -8,7 +8,9 @@ The Bitcoin Core project currently has very litte design focused contributors. O
 
 
 ## 🏆 Goal of Project Muggle 
-Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average person. 
+Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). 
+
+Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average person. 
 
 This repo will keep track of efforts made in establishing these foundations (see below). It will be periodically updated. If you wish to collaborate on Project Muggle reach out on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
 
