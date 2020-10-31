@@ -29,7 +29,7 @@ A design system is design foundations in and of itself. Other initatives being w
 
 Project Muggle will establish two Figma native design systems for Bitcoin Core initially. One for the [Bitcoin Core GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for the [Bitcoin Core website](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files be hosted by a [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). The reason two will exist initially is due to the constraints of the Qt widgets framework used by the GUI uses native operating system styling not a custom design. The GUI design system will be built with these constraints in mind. The bitcoincore.org design system will introduce a whole new custom look and feel to the website and related Bitcoin Core content (marketing, slides, branding etc.). If the GUI transitions to using a more flexible framework such as Qt QML (discussions currently underway) the GUI will adopt the website design system and work on new UI for the GUI can begin. 
 
-Designers can simply duplicate the design system files through Figma community and have access to all the required components and styles to begin desigining. Designers can also publish their work in progress designs as remixes creating a live catalog of what community designers are working on on the [BitcoinCore community page](https://www.figma.com/@BitcoinCore). The design process and workflows will be included in the README pages of each Figma design system file.
+Designers can simply duplicate the design system files through Figma community and have access to all the required components and styles to begin desigining. Designers can also publish their work in progress designs as remixes creating a live catalog of what community designers are working on on the [BitcoinCore community page](https://www.figma.com/@BitcoinCore). The design [workflow](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Website-Design-System?node-id=1857%3A136) will be included in the README pages of each Figma design system file.
 
 The design system(s) will eventually be hosted on GitHub pages through a live, interactive web app showcasing design a code elements.  
  
@@ -141,7 +141,6 @@ text here
 
 - [design_process.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/design_process.md) for how to contribute designs to Bitcoin Core.
 - [icon_policy.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/icon_policy.md) on how to contribute icons to Bitcoin Core. 
-- [Design workflows](https://www.figma.com/file/si2C2uAPyGUHrvdnkJtmI5/Bitcoin-Core-Figma-Workflow?node-id=718%3A369).
 
 
 
