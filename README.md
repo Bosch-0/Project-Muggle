@@ -209,8 +209,9 @@ Project Muggle aims to actively keep design focused dialogues going between the 
   <summary>Below are minor UI/UX contributions Project Muggle has made</summary>
  
 - Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
-- Slight GUI UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
+- Slight GUI UI/UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
+- **WIP** Polish current GUI icon set. [Link](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Website-Design-System?node-id=1881%3A6) to active design work. 
 
  </details
