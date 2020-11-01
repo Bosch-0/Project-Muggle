@@ -52,7 +52,7 @@ Project Muggle will be developing an open source bitcoin centric icon library th
 
 
 ## 📙 Contribute to Bitcoin Design Guide
-Project Muggle will be contributing to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide) were relevant. 
+Project Muggle will be contributing what we learn through working on Bitcoin Core to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
 
 > The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
 
@@ -68,9 +68,9 @@ Project Muggle will also be aiming to encourage more users (designers or not) to
 
 
 ## 🔬 Research
-The Bitcoin Core wallet has a range of novel features not present in conventional Bitcoin wallets. Project Muggle will be conducting design research as how best to devlelop UI/UX within these constraints.
+Project Muggle conduct design research on how to best implement UI/UX features of the novel constraints that Bitcoin Core has on its products.
 
-Project Muggle will actively collaborate with Bitcoin Core wallet research project, [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) on who the users of the Bitcoin Core wallet are were relevant. Project Muggle will also be implementing / contributing to the Bitcoin Design guide throughout its research.
+Project Muggle will actively collaborate with Bitcoin Core wallet research project [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) were relevant. Project Muggle will also be implementing / contributing to the Bitcoin Design guide throughout its research.
 
 <details>
   <summary>Research areas of interest</summary>
@@ -152,26 +152,21 @@ text here
 
 - [design_process.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/design_process.md) for how to contribute designs to Bitcoin Core.
 - [icon_policy.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/icon_policy.md) on how to contribute icons to Bitcoin Core. 
+- Design issue template for bitcoin-core/gui. 
 
 
 
 ## 🗺️ Guides
-Guides will be published on Medium / GitHub and my personal site (coming soon).
-
-### Designer guides
-- Compiling the Bitcoin Core GUI from source for designers.
-([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
-- Create design issue template for bitcoin-core/gui. 
-
-### User guides
-Project Muggle creates simple how-to guides to help end users navigate products developed by Bitcoin Core such as the GUI. 
+Project Muggle creates simple how-to guides to help end users navigate products developed by Bitcoin Core. Guides will be published on Medium / GitHub and my personal site (coming soon).
 
 <details>
- <summary> List of user guides</summary>
- 
-- Setting up your Bitcoin Core GUI node.
-- Generating a multisig wallet on the Bitcoin Core GUI.
-- Connecting you Bitcoin Core GUI node over Tor.
+ <summary>List of guides</summary>
+ - Compiling the Bitcoin Core GUI from source for designers.
+([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
+  
+ - **WIP** Setting up your Bitcoin Core GUI node.
+ - **WIP** Generating a multisig wallet on the Bitcoin Core GUI.
+ - **WIP** Connecting you Bitcoin Core GUI node over Tor.
  
 </details>
 
@@ -181,16 +176,14 @@ Project Muggle creates simple how-to guides to help end users navigate products 
 Project Muggle aims to actively keep design dialogues going between the Bitcoin Core community, developers and designers. 
 
 <details>
-  <summary>Discussions</summary>
+  <summary>List of discussions</summary>
 
 - [Bitcoin Core Branding](https://github.com/bitcoin-core/gui/issues/89).
 - [Bitcoin Core / Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
 - Switching net's within the gui [issue #78](https://github.com/bitcoin-core/gui/issues/78)
-- Establishing a Bitcoin Core design system. 
+- Establishing Bitcoin Core design system. 
 - Switching Qt framework from widgets to QML.
-- Headless Bitcoin Core setup.
-- Having HWI installed with GUI binaries.
-- Tor binaries shipped with GUI.
+- Headless Bitcoin Core GUI.
 
 </details>
 
