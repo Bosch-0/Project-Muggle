@@ -1,7 +1,7 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
 # 🧙‍ What is Project Muggle? 
-Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the design focus of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases the open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
+Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the design focus of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
 Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). Design is one way to help bridge this gap and make the magical internet money known as bitcoin more accessible to the average person.
 
@@ -27,9 +27,9 @@ A design system has many definitions, though the Nielsen Norman Group's definiti
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
-Project Muggle will initially establish two Figma native design systems for Bitcoin Core. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files will be hosted by the [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). Having a design system will be assist in on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
+Project Muggle will initially establish two Figma native design systems for Bitcoin Core. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files will be hosted by the [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). Having a design system will be assist with on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
 
-Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI  which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints while the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
+Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints while the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
 
 To see how designers will work with these design systems a [README](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/?node-id=271%3A527) at the start of each design system outlining workflows has been included.
 
@@ -139,8 +139,8 @@ This will likely occur in parallel to v2.0 of the create wallet designs which in
 Once the GUI has a basic HWW create wallet flow UI implemented, multisig UI is the next priority. Multisig in Bitcoin Core is quite different from other wallets (due to no BIP39 implementation) so this will need to be designed from the ground up. 
 
 
-### Descriptors
-Descriptor wallets which are included in the next major Bitcoin Core release (0.21) offer a wide range of UX implications. There does not yet exist any reference UI/UX best practices for working with descriptors so this project will involve quite a bit of research. Some examples of UX improvements descriptors can offer are below:
+### Descriptor wallets
+Descriptor wallets included in the next major Bitcoin Core release (0.21) offer a wide range of UX implications. There does not yet exist any reference UI/UX best practices for working with descriptors so this project will be working on building. Some examples of UX improvements descriptors can offer are below:
 
 - Easier multisig backups.
 - Better wallet management. 
@@ -148,16 +148,21 @@ Descriptor wallets which are included in the next major Bitcoin Core release (0.
 
 
 ## 📄 Documentation
-text here
+Project Muggle will create documentation as part of developing design foundations for Bitcoin Core.
 
-- [design_process.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/design_process.md) for how to contribute designs to Bitcoin Core.
-- [icon_policy.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/icon_policy.md) on how to contribute icons to Bitcoin Core. 
-- Design issue template for bitcoin-core/gui. 
+<details>
+ <summary>List of Documentation</summary>
+
+- **WIP** [design_process.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/design_process.md) for how to contribute designs to Bitcoin Core.
+- **WIP** [icon_policy.md](https://github.com/Bosch-0/Project-Muggle/blob/master/docs/icon_policy.md) on how to contribute icons to Bitcoin Core. 
+- **WIP** Design issue template for bitcoin-core/gui. 
+
+</details>
 
 
 
 ## 🗺️ Guides
-Project Muggle creates simple how-to guides to help end users navigate products developed by Bitcoin Core. Guides will be published on Medium / GitHub and my personal site (coming soon).
+Project Muggle will create simple how-to guides to help end users navigate products developed by Bitcoin Core. Guides will be published on Medium / GitHub and my personal site (coming soon).
 
 <details>
  <summary>List of guides</summary>
@@ -172,7 +177,7 @@ Project Muggle creates simple how-to guides to help end users navigate products 
 
 
 ## 🗯️ Design discussions
-Project Muggle aims to actively keep design dialogues going between the Bitcoin Core community, developers and designers. 
+Project Muggle aims to actively keep design focused dialogues going between the Bitcoin Core community, developers and designers. 
 
 <details>
   <summary>List of discussions</summary>
