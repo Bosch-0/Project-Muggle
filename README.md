@@ -197,8 +197,6 @@ Project Muggle aims to actively keep design dialogues going between the Bitcoin 
 
 
 ## 🤏 Minor design contributions
-Minor design contributions.
-
 <details>
   <summary>Below are minor UI/UX contributions Project Muggle has made</summary>
  
