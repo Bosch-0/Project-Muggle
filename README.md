@@ -1,9 +1,9 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
 # 🧙‍ What is Project Muggle? 
-Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience (UX) of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases the open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
+Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the design focus of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases the open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
-Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). Good design is one way to help bridge this gap and make the magical internet money known as bitcoin more accessible to the average person
+Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). Design is one way to help bridge this gap and make the magical internet money known as bitcoin more accessible to the average person.
 
 This repo will keep track of efforts made in improving the design focus of Bitcoin Core. If you wish to collaborate on Project Muggle reach out on the [Bitcoin Design Slack](https://bitcoindesign.slack.com/join/shared_invite/zt-gytq2snl-4TEWJOTKrXRCB4YLBoDunA#/) or [twitter](https://twitter.com/_bosch_). 
 
@@ -13,13 +13,12 @@ This repo will keep track of efforts made in improving the design focus of Bitco
 Establish design foundations and direction for Bitcoin Core by the 0.22.0 release (~July 2021). 
 
 <details>
- <summary> What will this acheive?</summary>
+ <summary> What will this achieve?</summary>
 
-- More design focused contributors - Bitcoin Core currently has very few design focused contributors.
-- A stronger design focus in the contributing process.
-- A better UI/UX for end users using Bitcoin Core products such as the GUI / website. 
+- Better UI/UX for current and future users of Bitcoin Core products such as the GUI / website. 
+- More design focused contributors.
+- Stronger design focus in the contribution process. 
 - Save time and resources by reducing  developmental debt - both technical and design.
- 
 </details> 
 
 
@@ -34,12 +33,12 @@ Project Muggle will initially establish two Figma native design systems for Bitc
 
 Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI  which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints while the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
 
-The design systems will be built along side other initatives Project Muggle is working on (see below) that willwill feed back into these design systems.
+The design systems will be built along side other initatives Project Muggle is working on. 
 
-To see how designers will work with these design systems we have included a README at the start of each design system outlining the workflow.
+To see how designers will work with these design systems a README at the start of each design system outlining the workflow has been included.
 
-Design system(s) will eventually be hosted on GitHub pages through a live, interactive web app showcasing design and code elements.  
- 
+A single, full fledged design system including design and code snippets will eventually be hosted on GitHub pages through a live, interactive web app.
+
 
 
 ## 🌐 Bitcoincore.org redesign 
@@ -51,14 +50,14 @@ Cobra (owner or bitcoin.org) is working on a [Bitcoin wallet](https://twitter.co
 
 
 ## 🟠 Open source Bitcoin icon library
-The primary aim of this project is to create an open source bitcoin centric icon library that projects like Bitcoin Core can use in their apps. This will likely be an open initiative that project muggle and the Bitcoin Design community will work on.
+The primary aim of this project is to create an open source bitcoin centric icon library that projects like Bitcoin Core can use in their apps. This will likely be an open initiative that Project Muggle and the Bitcoin Design community will collaboratively work on.
 
 [Link to repo](https://github.com/Bosch-0/Bitcoin-Icons)
 
 
 
 ## 📙 Contribute to Bitcoin Design Guide
-Insights gained whilst building design foundations for Bitcoin Core will be contrbiuted to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
+Project Muggle will contribute to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide) were relevant. 
 
 > The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
 
