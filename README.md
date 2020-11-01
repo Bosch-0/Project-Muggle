@@ -1,14 +1,14 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
 ## 🧙‍ What is Project Muggle? 
-Project Muggle is an initiative started as part of the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
-
-The Bitcoin Core project currently has very litte design focused contributors. One way to encourage more designers to contribute to Bitcoin Core is by establishing design foundations. Foundations will help on-board new designers to the project and help streamline the design process. Design foundations will also give guidance to developers and the wider community by establishing design workflows and guidelines. The Bitcoin Core project has never had a strong design focus resulting in products such as their node/wallet GUI lacking much needed design direction. Design foundations will save already constrained time and resources by limiting developmental debt - both in terms of technical and design.
+Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience (UX) of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
 
 
 ## 🏆 Goal of Project Muggle 
 Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). 
+
+Bitcoin Core currently has very little design focused contributors. One way to encourage more designers to contribute to Bitcoin Core is by establishing design foundations. Design foundations will help on-board new designers to the project and help streamline the design process. Bitcoin Core has had little design focus throughout its 12 year existence resulting in products such as their node/wallet GUI having many UX issues. Design foundations will save already constrained time and resources by limiting developmental debt – both in terms of technical and design.
 
 Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average person. 
 
@@ -39,11 +39,6 @@ The design system(s) will eventually be hosted on GitHub pages through a live, i
 The user journey does not start once the user downloads the GUI but rather the website its downloaded from. Whilst applying the Bitcoin Core design system I aimt to improve the UI/UX of bitcoincore.org to better assist end users on the journey on using the GUI. 
 
 Cobra (owner or bitcoin.org) is working on a [Bitcoin wallet](https://twitter.com/cobrabitcoin/status/1310304498125025282?s=21) which could mean a conflict of interest when it comes to recommending wallets on bitcoin.org. With Re-desigining bitcoincore.org I am aiming for bitcoincore.org to be the primary place for end users to download the Bitcoin Core GUI.
-
-
-- Work on designs on other open source Bitcoin projects for more rapid prototyping for core.
-- Testing workflows that will feed into design system.
-- A project like Bitcoin Core needs incremental, minor design additions to prevent too much overhead but avoid being too small to prevent bikeshedding. Bikeshedding at the beginning will likely occur while design proccesses are worked out. 
 
 
 
