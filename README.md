@@ -33,13 +33,15 @@ A design system has many definitions, though the Nielsen Norman Group's definiti
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
-Project Muggle will establish two Figma native design systems for Bitcoin Core initially. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for the [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). yse two files be hosted by a [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). The reason two will exist initially is due to the constraints of the Qt widgets framework used by the GUI uses native operating system styling not a custom design. The GUI design system will be built with these constraints in mind. The bitcoincore.org design system will introduce a whole new custom look and feel to the website and related Bitcoin Core content (marketing, slides, branding etc.). If the GUI transitions to using a more flexible framework such as Qt QML (discussions currently underway) the GUI will adopt the website design system and work on new UI for the GUI can begin. 
+Project Muggle will initially establish two Figma native design systems for Bitcoin Core. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files will be hosted by the [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). Having a design system will be assist in on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
 
-These design systems will be built along side other initatives Project Muggle is working on (see below).  and will feed back into these design systems. Having a design system will be assist in on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
+Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI  which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints while the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
 
-Designers can simply duplicate the design system files through Figma community and have access to all the required components and styles to begin desigining. Designers can also publish their work in progress designs as remixes creating a live catalog of what community designers are working on on the [BitcoinCore community page](https://www.figma.com/@BitcoinCore). A design [workflow](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Website-Design-System?node-id=1857%3A136) along with other contributing details will be included in the README page of each Figma design system file.
+The design systems will be built along side other initatives Project Muggle is working on (see below) that willwill feed back into these design systems.
 
-The design system(s) will eventually be hosted on GitHub pages through a live, interactive web app showcasing design a code elements.  
+To see how designers will work with these design systems we have included a README at the start of each design system outlining the workflow.
+
+Design system(s) will eventually be hosted on GitHub pages through a live, interactive web app showcasing design and code elements.  
  
 
 
