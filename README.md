@@ -172,18 +172,24 @@ Guides will be published on Medium / GitHub and my personal site (coming soon).
 - Create design issue template for bitcoin-core/gui. 
 
 ### User guides
-The GUI can be complicated for users to navigate and some features are still primarily RPC based. I aim to create simple how-to guides for certain features of the GUI that will give simple explanations for technical topics. I will create a list below as I develop and publish ideas. 
+Project Muggle creates simple how-to guides to help end users navigate products developed by Bitcoin Core such as the GUI. 
 
-- Setting up your Bitcoin Core node 
-- Generating a multisig wallet on Bitcoin Core
-- Connecting you Bitcoin Core node over Tor 
+<details>
+ <summary> List of user guides</summary>
+ 
+- Setting up your Bitcoin Core GUI node.
+- Generating a multisig wallet on the Bitcoin Core GUI.
+- Connecting you Bitcoin Core GUI node over Tor.
+ 
+</details>
 
 
 
 ## 🗯️ Design discussions
-Project Muggle aims to actively keep design dialogues going between the community, developers and designers.
+Project Muggle aims to actively keep design dialogues going between the Bitcoin Core community, developers and designers. 
 
-Below are some discussions that may or may not be feasible but are worth being discussed for future reference. Discussions will be had on various platforms such as GitHub, StackExchange and Bitcointalk. 
+<details>
+  <summary>Discussions</summary>
 
 - [Bitcoin Core Branding](https://github.com/bitcoin-core/gui/issues/89).
 - [Bitcoin Core / Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
@@ -194,15 +200,19 @@ Below are some discussions that may or may not be feasible but are worth being d
 - Having HWI installed with GUI binaries.
 - Tor binaries shipped with GUI.
 
+</details>
+
 
 
 ## 🤏 Minor design contributions
 Minor design contributions.
 
-<summary>Below are minor UI/UX contributions Project Muggle has made</summary>
-  <details>
+<details>
+  <summary>Below are minor UI/UX contributions Project Muggle has made</summary>
+ 
 - Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
 - Slight GUI UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
+
  </details
