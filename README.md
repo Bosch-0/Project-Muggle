@@ -161,9 +161,8 @@ Project Muggle creates simple how-to guides to help end users navigate products 
 
 <details>
  <summary>List of guides</summary>
- - Compiling the Bitcoin Core GUI from source for designers.
-([Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)).
-  
+
+ - Compiling Bitcoin Core GUI from source for designers. [Windows](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-windowsos-1e73f478a799), [macOS](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-macos-7ef2e1c6d8b0), [Linux](https://medium.com/@_Bosch_/compiling-the-bitcoin-core-gui-from-source-for-designers-linux-936ed2fca125)
  - **WIP** Setting up your Bitcoin Core GUI node.
  - **WIP** Generating a multisig wallet on the Bitcoin Core GUI.
  - **WIP** Connecting you Bitcoin Core GUI node over Tor.
