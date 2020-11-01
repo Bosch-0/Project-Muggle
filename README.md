@@ -200,12 +200,9 @@ Below are some discussions that may or may not be feasible but are worth being d
 Minor design contributions.
 
 <summary>Below are minor UI/UX contributions Project Muggle has made</summary>
-
   <details>
- 
 - Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
 - Slight GUI UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
- 
  </details
