@@ -87,6 +87,7 @@ project Muggle will be actively working on improving the UI/UX of the Bitcoin Co
 
 Some designs may be prototyped in other open source Bitcoin Projects that have a faster developmental pace than Bitcoin Core. These projects will be labelled as segeu designs.  
 
+
 ### QML GUI
 Project Muggle will be working on a complete new QML based design for the GUI. QML offers much more design flexibility than the currently used Qt widgets framework. Switching the Qt framework to QML from widgets is still a [WIP](https://github.com/bitcoin/bitcoin/pull/16883), though designs will be worked on while this transition occurs.
 
@@ -102,7 +103,6 @@ The onboarding designs are broken up into versions. This limits technical overhe
 
 <details>
   <summary>Version 0.1</summary>
-  
   
 Version 0.1 reworks the current limited onboarding. It focuses on educating the user about the GUI and running a node. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15) to active design work.
 
@@ -121,15 +121,25 @@ Version 0.2 will add to 0.1 by introducing a basic create wallet flow to the onb
 ### Create wallet flow
 The current create wallet user flow does little to educate the user about what it is they are doing. Creating a wallet is an important action all Bitcoin users undertake. Wallet creation comes with many caveats and intricacies. Without educating users through the process it's likely they will costly errors.
 
-[Version 0.1](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)
-Version 0.1 focuses on re-working the current content. This is to make it more clear to users about what they actions they are taking / trade offs they are making. This version has been shared on GitHub for feedback [issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626)
+<details>
+   <summary> Version 0.1 </summary>
 
-[Version 0.2](#)
-Version 0.2 focuses on adding extra features to the basic create wallet flow. Examples include HWW integration and descriptor imports. 
+Version 0.1 focuses on re-working of the current content. This is to make it more clear to users about what they actions they are taking / trade offs they are making. This version has been shared on GitHub for feedback [issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626). [Link]()to active design work. 
 
+</details>
+ 
+<details>
+   <summary> Version 0.2 </summary>
+  
+Version 0.2 focuses on adding extra features to the basic create wallet flow. Examples include HWW integration and descriptor imports. [Link]()to active design work.
+  
+</details>
+ 
 
 ### CoinControl
-[Some great discussions](https://github.com/BitcoinDesign/Guide/issues/22) and work happening over at the Bitcoin Design community on improving CoinControl UX. Will be implementing these insights from here into the GUI's currently coin control UI.
+
+
+[Some great discussions](https://github.com/BitcoinDesign/Guide/issues/22) and work is happening over at the Bitcoin Design community on improving CoinControl UX. Will be implementing these insights from here into the GUI's current coin control UI/UX.
 
 
 ### Hardware wallet intergration
