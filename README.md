@@ -1,14 +1,22 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
 ## 🧙‍ What is Project Muggle? 
-Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience (UX) of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases an open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
+Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience (UX) of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases the open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
 
 
 ## 🏆 Goal of Project Muggle 
-Establish design foundations for the Bitcoin Core project over the next 6 months (as of November 2020). 
+Establish design foundations and direction for the Bitcoin Core project 0.22.0 release (~July 2021). 
 
-Bitcoin Core currently has very little design focused contributors. One way to encourage more designers to contribute to Bitcoin Core is by establishing design foundations. Design foundations will help on-board new designers to the project and help streamline the design process. Bitcoin Core has had little design focus throughout its 12 year existence resulting in products such as their node/wallet GUI having many UX issues. Design foundations will save already constrained time and resources by limiting developmental debt – both in terms of technical and design.
+<details>
+ <summary> Why is this important?</summary>
+
+
+- Bitcoin Core has very few design focused contributors. Having design foundations to springbroad the design process will encourage designers to contribute to Bitcoin Core.
+ 
+</details> 
+
+Design foundations will help on-board new designers to the project and help streamline the design process. Bitcoin Core has had little design focus throughout its 12 year existence resulting in products such as their node/wallet GUI having many UX issues. Design foundations will save already constrained time and resources by limiting developmental debt – both in terms of technical and design.
 
 Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). With good design, which starts with solid design foundations, this bridge can be gapped making the magical internet money known as bitcoin more accessible to the average person. 
 
