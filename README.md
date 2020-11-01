@@ -74,12 +74,14 @@ The Bitcoin Core wallet has a range of novel features not present in conventiona
 
 Project Muggle will actively collaborate with Bitcoin Core wallet research project, [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) on who the users of the Bitcoin Core wallet are were relevant. Project Muggle will also be working alongside the Bitcoin Design community throughout its research.
 
-Below are some research areas of interest:
-
+<details>
+  <summary>Research areas of interest</summary>
+  
 - Desigining for Bitcoin Core post 0.21.0 - Taproot, MuSig, descriptors and more.
 - UX friendly wallet backups without BIP39.
 - Multisig / HWI intergration with hardened hierarchical Deterministic Wallets.
 - Node bootstrapping.
+</details>
 
 
 
@@ -97,14 +99,23 @@ Currently the Bitcoin Core GUI has a limited onboarding process. Onboarding is a
 
 The onboarding designs are broken up into versions. This limits technical overhead making it easier for developers to implement designs. Core moves in calculated and incremental steps so atomizing these designs makes sense. 
 
-[Version 0.1](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15)
-Version 0.1 reworks the current limited onboarding. It focuses on educating the user about the GUI and running a node. 
+<details>
+  <summary>Version 0.1</summary>
+  
+  
+Version 0.1 reworks the current limited onboarding. It focuses on educating the user about the GUI and running a node. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15) to active design work.
 
 **INSERT IMAGE**
-  
-[Version 0.2](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A502)
-Version 0.2 will add to 1.0 by introducing a basic create wallet flow to the onboarding process. This wallet flow may include HWW integration depending [if its merged](https://github.com/bitcoin-core/gui/pull/4). 
 
+</details>
+ 
+ <details>
+   <summary> Version 0.2 </summary>
+ 
+Version 0.2 will add to 0.1 by introducing a basic create wallet flow to the onboarding process. This wallet flow will include HWW integration depending [if its merged](https://github.com/bitcoin-core/gui/pull/4). [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=104%3A216) to active design work.
+ 
+ </details>
+ 
 
 ### Create wallet flow
 The current create wallet user flow does little to educate the user about what it is they are doing. Creating a wallet is an important action all Bitcoin users undertake. Wallet creation comes with many caveats and intricacies. Without educating users through the process it's likely they will costly errors.
