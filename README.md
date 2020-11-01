@@ -1,6 +1,6 @@
 ![banner image](https://github.com/Bosch-0/Project-Muggle/blob/master/assets/images/bannerimage.png "Banner Image")
 
-## 🧙‍ What is Project Muggle? 
+# 🧙‍ What is Project Muggle? 
 Project Muggle is an initiative started in the [Bitcoin Design community](https://github.com/BitcoinDesign) to improve the user experience (UX) of applications developed by the [Bitcoin Core project](https://bitcoincore.org/). The Bitcoin Core project maintains and releases the open source Bitcoin client called “[Bitcoin Core](https://github.com/bitcoin).” Bitcoin Core is (currently) the primary reference implementation for the digital currency Bitcoin (BTC).  
 
 Bitcoin has yet to break out of the non-magical community (programming wizards) into the world of ordinary human beings (muggles). Good design is one way to help bridge this gap and make the magical internet money known as bitcoin more accessible to the average person
@@ -9,7 +9,7 @@ This repo will keep track of efforts made in improving the design focus of Bitco
 
 
 
-## 🏆 Goal of Project Muggle 
+# 🏆 Goal of Project Muggle 
 Establish design foundations and direction for Bitcoin Core by the 0.22.0 release (~July 2021). 
 
 <details>
@@ -28,6 +28,7 @@ Establish design foundations and direction for Bitcoin Core by the 0.22.0 releas
 
 
 
+# What is Project Muggle working on? 
 ## 🌌 Bitcoin Core Design system(s)
 A design system has many definitions, though the Nielsen Norman Group's definition below is quite accurate:
 
@@ -45,7 +46,7 @@ Design system(s) will eventually be hosted on GitHub pages through a live, inter
  
 
 
-## 🌐 Bitcoincore.org
+## 🌐 Bitcoincore.org redesign 
 
 The user journey does not start once the user downloads the GUI but rather the website its downloaded from. Whilst applying the Bitcoin Core design system I aim to improve the UI/UX of bitcoincore.org to better assist end users on the journey on using the GUI. 
 
@@ -59,19 +60,20 @@ The primary aim of this project is to create an open source bitcoin centric icon
 [Link to repo](https://github.com/Bosch-0/Bitcoin-Icons)
 
 
-## 🛠️ bitcoin-core/gui pull request (PR) testing
-A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified for the GUI which needs to be tested accross various operating systems manually. Additionaly, Bitcoin Core has few design focused testers / contributors resulting in the design of many PRs mostly being an afterthought or unfounded in design principlies. 
-
-To assist with bridging the designer / developer gap I (Bosch) will be actively testing GUI PRs as part of Project Muggle. More specifically I will give design guidance on PRs alongside testing for bugs. Insights gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
-
-Project Muggle will also be aiming to encourage more users (designers or not) to start testing PRs with well designed guides and documentation (see guides and documentation sections below).
-
-
 
 ## 📙 Contribute to Bitcoin Design Guide
 Insights gained whilst building design foundations for Bitcoin Core will be contrbiuted to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
 
 > The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
+
+
+
+## 🛠️ Bitcoin Core GUI pull request (PR) testing
+A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified for the GUI which needs to be tested accross various operating systems manually. Additionaly, Bitcoin Core has few design focused testers / contributors resulting in the design of many PRs mostly being an afterthought or unfounded in design principlies. 
+
+To assist with bridging the designer / developer gap I (Bosch) will be actively testing GUI PRs as part of Project Muggle. More specifically I will give design guidance on PRs alongside testing for bugs. Insights gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
+
+Project Muggle will also be aiming to encourage more users (designers or not) to start testing PRs with well designed guides and documentation (see guides and documentation sections below).
 
 
 
@@ -197,7 +199,13 @@ Below are some discussions that may or may not be feasible but are worth being d
 ## 🤏 Minor design contributions
 Minor design contributions.
 
+<summary>Below are minor UI/UX contributions Project Muggle has made</summary>
+
+  <details>
+ 
 - Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
 - Slight GUI UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
 - Privacy mode toggle option [issue #82](https://github.com/bitcoin-core/gui/issues/82)
 - More informative tray icons [issue #70](https://github.com/bitcoin-core/gui/issues/70)
+ 
+ </details
