@@ -24,10 +24,6 @@ Establish design foundations and direction for Bitcoin Core by the 0.22.0 releas
 
 
 
----
-
-
-
 # What is Project Muggle working on? 
 ## 🌌 Bitcoin Core Design system(s)
 A design system has many definitions, though the Nielsen Norman Group's definition below is quite accurate:
