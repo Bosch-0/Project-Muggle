@@ -15,8 +15,7 @@ Establish design foundations and direction for Bitcoin Core by the 0.22.0 releas
 ### What will this achieve?
 
 - Better UI/UX for current and future users of Bitcoin Core products such as the GUI / website. 
-- More design focused contributors.
-- Stronger design focus in the contribution process. 
+- More design focused contributors / stronger design contribution process.
 - Save time and resources by reducing  developmental debt - both technical and design.
 
 
@@ -51,7 +50,7 @@ Project Muggle will be developing an open source bitcoin centric icon library th
 
 
 
-## 📙 Contribute to Bitcoin Design Guide
+## 📙 Contributing to Bitcoin Design Guide
 Project Muggle will be contributing what we learn through working on Bitcoin Core to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
 
 > The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
@@ -84,7 +83,9 @@ Project Muggle will actively collaborate with Bitcoin Core wallet research proje
 
 
 ## 🖥️ GUI Designs
+project Muggle will be actively working on improving the UI/UX of the Bitcoin Core graphical user interface (GUI). Design scope will focus on changes that will be atomic (versioned), non-contentious and translatable to future frameworks such as QML (to not incur design debt). Contributing designs will also assist with establishing design workflows and processes that intergrate with the current Bitcoin Core contributing guidelines. 
 
+Some designs may be prototyped in other open source Bitcoin Projects that have a faster developmental pace than Bitcoin Core. These projects will be labelled as segeu designs.  
 
 ### QML GUI
 Project Muggle will be working on a complete new QML based design for the GUI. QML offers much more design flexibility than the currently used Qt widgets framework. Switching the Qt framework to QML from widgets is still a [WIP](https://github.com/bitcoin/bitcoin/pull/16883), though designs will be worked on while this transition occurs.
