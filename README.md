@@ -91,7 +91,9 @@ Project Muggle will actively collaborate with Bitcoin Core wallet research proje
 
 
 ## 🖥️ GUI Designs
-project Muggle will be actively working on improving the UI/UX of the Bitcoin Core graphical user interface (GUI). Design scope will focus on changes that will be atomic (versioned), non-contentious and translatable to future frameworks such as QML (to not incur design debt). Contributing designs will also assist with establishing design workflows and processes that intergrate with the current Bitcoin Core contributing guidelines. 
+Project Muggle will be actively working on improving the UI/UX of the Bitcoin Core graphical user interface (GUI). Design scope will focus on changes that will be atomic (versioned), non-contentious and translatable to future frameworks such as QML (to not incur design debt). Contributing designs will also assist with establishing design workflows and processes that intergrate with the current Bitcoin Core contributing guidelines. 
+
+Re-designing of bitcoincore.org (see section above) also impacts the UI/UX of the GUI
 
 Some designs may be prototyped in other open source Bitcoin Projects that have a faster developmental pace than Bitcoin Core. These projects will be labelled as segeu designs.  
 
@@ -112,18 +114,16 @@ The onboarding designs are broken up into versions. This limits technical overhe
 <details>
   <summary>Version 0.1</summary>
   
-Version 0.1 reworks the current limited onboarding. It focuses on educating the user about the GUI and running a node. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15) to active design work.
-
-**INSERT IMAGE**
+Version 0.1 reworks the current, very limited on-boarding. The goal of this version is to educate the user about the GUI and running a full node. A first iteration of version 0.1 has been shared on GitHub for feedback [issue #81](https://github.com/bitcoin-core/gui/issues/81) [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15) to active design work.
 
 </details>
  
- <details>
-   <summary> Version 0.2 </summary>
+<details>
+  <summary> Version 0.2 </summary>
  
-Version 0.2 will add to 0.1 by introducing a basic create wallet flow to the onboarding process. This wallet flow will include HWW integration depending [if its merged](https://github.com/bitcoin-core/gui/pull/4). [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=104%3A216) to active design work.
+Version 0.2 will introduce a basic create wallet flow to the on boarding process proceeding what is introduced in 0.1. The goal of this version is to walk users through setting up a wallet as simply as possible. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=104%3A216) to active design work.
  
- </details>
+</details>
  
 
 ### Create wallet flow
@@ -132,14 +132,14 @@ The current create wallet user flow does little to educate the user about what i
 <details>
    <summary> Version 0.1 </summary>
 
-Version 0.1 focuses on re-working of the current content. This is to make it more clear to users about what they actions they are taking / trade offs they are making. This version has been shared on GitHub for feedback [issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626). [Link]()to active design work. 
+Version 0.1 will focus on re-working of what content is currently available. This is to make it more clear to users about what they actions they are taking / trade offs they are making which are not clearly communicated currently. A first iteration of version 0.1 has been shared on GitHub for feedback [issue #77](https://github.com/bitcoin-core/gui/issues/77#issue-687141626). [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=5%3A1)to active design work. 
 
 </details>
  
 <details>
    <summary> Version 0.2 </summary>
   
-Version 0.2 focuses on adding extra features to the basic create wallet flow. Examples include HWW integration and descriptor imports. [Link]()to active design work.
+Version 0.2 will focuss on adding additional features to the basic create wallet flow. Examples include external signer wallet option and descriptor imports for watch only wallets. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=158%3A0)to active design work.
   
 </details>
  
