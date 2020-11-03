@@ -17,7 +17,7 @@ Establish design foundations and direction for Bitcoin Core by the 0.22.0 releas
 - Better UI/UX for current and future users of Bitcoin Core products such as the GUI / website. 
 - More design focused contributors / stronger design contribution process within Bitcoin Core.
 - Save time and resources by reducing developmental debt - both technical and design.
-- Assist with establishing Bitcoin open design processes by feeding our insights into the Bitcoin Design Guide. 
+- Assist with establishing Bitcoin open design processes and standards that help the wider Bitcoin ecosystem. 
 
 
 
