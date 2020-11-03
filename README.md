@@ -58,7 +58,7 @@ Project Muggle will be contributing what we learn through working on Bitcoin Cor
 
 
 
-## ☎️ Bi-weekly Bitcoin Core design review calls
+## ☎️ Bi-weekly Bitcoin Core Design Review Calls
 Project Muggle along with the Bitcoin Design community hosts bi-weekly Bitcoin Core design review calls. The goal of these calls is to bridge the designer and developer gap and keep the design community up to date with whats going on design and development wise on Bitcoin Core, including work Project Muggle is doing. Scheduled calls can be found in the issues section in the [BitcoinDesign/Meta repo](https://github.com/BitcoinDesign).
 
 
