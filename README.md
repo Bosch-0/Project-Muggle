@@ -51,7 +51,7 @@ Project Muggle will be developing an open source bitcoin centric icon library th
 
 
 ## 📙 Contributing to Bitcoin Design Guide
-Project Muggle will be contributing what we learn through working on Bitcoin Core to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). 
+Project Muggle will be contributing what we learn through working on Bitcoin Core to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). Learnings obtained through working on Bitcoin Core will likely make valuable additions to the "Open source & open design" section of the Guide.
 
 > The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
 
