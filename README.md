@@ -58,10 +58,15 @@ Project Muggle will be contributing what we learn through working on Bitcoin Cor
 
 
 
-## 🛠️ Bitcoin Core GUI pull request (PR) testing
-A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified with the GUI which needs to be tested accross various operating systems manually. Additionaly, Bitcoin Core has few design focused testers / contributors resulting in the design of many PRs mostly being an afterthought or unfounded in design principlies. 
+## ☎️ Bi-weekly Bitcoin Core design review calls
+Project Muggle along with the Bitcoin Design community hosts bi-weekly Bitcoin Core design review calls. The goal of these calls is to bridge the designer and developer gap and keep the design community up to date with whats going on design and development wise on Bitcoin Core, including work Project Muggle is doing. Scheduled calls can be found in the issues section in the [BitcoinDesign/Meta repo](https://github.com/BitcoinDesign).
 
-To assist with bridging the designer / developer gap Project Muggle will be actively testing GUI PRs. Insights gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
+
+
+## 🛠️ Bitcoin Core GUI pull request (PR) testing
+A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified with the GUI which needs to be manually tested accross various operating systems. Additionaly, Bitcoin Core has few design focused testers / contributors resulting in the design of many PRs mostly being an afterthought or unfounded in design principlies. 
+
+To assist with bridging the designer / developer gap, Project Muggle will be actively testing GUI PRs. Learnings gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
 
 Project Muggle will also be aiming to encourage more users (designers or not) to start testing PRs with well designed guides and documentation (see guides and documentation sections below).
 
@@ -75,10 +80,12 @@ Project Muggle will actively collaborate with Bitcoin Core wallet research proje
 <details>
   <summary>Research areas of interest</summary>
   
-- Desigining for Bitcoin Core post 0.21.0 - Taproot, MuSig, descriptors and more.
+- Designing for Bitcoin Core post 0.21.0 – Taproot, MuSig, descriptors and more.
 - UX friendly wallet backups without BIP39.
-- Multisig / HWI intergration with hardened hierarchical Deterministic Wallets.
+- Multisig integration with hardened hierarchical Deterministic Wallets.
+- Bitcoin Core hardware wallet integration.
 - Node bootstrapping.
+
 </details>
 
 
