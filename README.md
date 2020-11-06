@@ -12,6 +12,7 @@ This repo will keep track of efforts made in improving the design focus of Bitco
 # 🏆 Goal of Project Muggle 
 Establish design foundations and direction for Bitcoin Core by the 0.22.0 release (~July 2021). 
 
+
 ### What will this achieve?
 
 - Better UI/UX for current and future users of Bitcoin Core products such as the GUI / website. 
@@ -27,9 +28,9 @@ A design system has many definitions, though the Nielsen Norman Group's definiti
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
 
-Project Muggle will initially establish two Figma native design systems for Bitcoin Core. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files will be hosted by the [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). Having a design system will be assist with on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
+Project Muggle will initially establish two Figma native design systems for Bitcoin Core. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files will be hosted by a [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). Governence of this account will also have to be established. Having a design system will be assist with on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
 
-Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints while the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
+Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI, which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints, whilst the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
 
 To see how designers will work with these design systems a [README](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/?node-id=271%3A527) at the start of each design system outlining workflows has been included.
 
@@ -38,9 +39,9 @@ A single, full fledged design system including design and code snippets will eve
 
 
 ## 🌐 Bitcoincore.org redesign 
-Project Muggle will be working on a complete re-design of bitcoincore.org using our Bitcoin Core website design system. 
+Project Muggle will be working on a complete re-design of bitcoincore.org using our Bitcoin Core website design system outlined above. 
 
-Bitcoincore.org currently has a dated and not so user friendly design. User journey's do not start with running the application. In the case of the GUI downloading the binaries from a trusted source such as bitcoincore.org is a first step. The current design does not communicate trust nor does it do a good job educating users about Bitcoin Core and what it offers. A re-design that puts emphasis on user experience and trust will significantly improve how users view Bitcoin Core and its associated products. 
+Bitcoincore.org currently has a dated and not so user friendly design. User journey's do not start with running an application. In the case of the GUI downloading the binaries from a trusted source such as bitcoincore.org is a first step. The current design does not communicate trust nor does it do a good job educating users about Bitcoin Core and what it offers. A re-design that puts emphasis on user experience and trust will significantly improve how users view Bitcoin Core and its associated products. [Active design](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/?node-id=110%3A0) work will begin once the website design system is established. 
 
 
 
@@ -52,30 +53,30 @@ Project Muggle will be developing an open source bitcoin centric icon library th
 
 
 ## 📙 Contributing to Bitcoin Design Guide
-Project Muggle will be contributing what we learn through working on Bitcoin Core to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). Learnings obtained through working on Bitcoin Core will likely make valuable additions to the "Open source & open design" section of the Guide.
+Project Muggle will be contributing what we learn through working on Bitcoin Core to the open source [Bitcoin Design Guide](https://github.com/BitcoinDesign/Guide). Learnings obtained through working on Bitcoin Core will likely make valuable additions to the "Open source & open design" section of the Guide among others.
 
 > The Bitcoin Design Guide is a free open-source community resource that helps designers, developers and others working on non-custodial bitcoin-products to create better experiences, faster. We hope that, over time, it will cover all relevant types of products, including consumer wallets, merchant interactions, exchanges and more. Better products and experiences should ultimately make it more appealing for anyone to own and use bitcoin.
 
 
 
 ## ☎️ Bi-weekly Bitcoin Core Design Review Calls
-Project Muggle along with the Bitcoin Design community hosts bi-weekly Bitcoin Core design review calls. The goal of these calls is to bridge the designer and developer gap and keep the design community up to date with whats going on design and development wise on Bitcoin Core, including work Project Muggle is doing. Scheduled calls can be found in the issues section in the [BitcoinDesign/Meta repo](https://github.com/BitcoinDesign).
+Project Muggle, along with the Bitcoin Design community, hosts bi-weekly Bitcoin Core design review calls. The goal of these calls is to bridge the designer and developer gap and keep the design community up to date with whats going on design and development wise on Bitcoin Core, including work Project Muggle is doing. Scheduled calls can be found in the issues section in the [BitcoinDesign/Meta repo](https://github.com/BitcoinDesign).
 
 
 
 ## 🛠️ Bitcoin Core GUI pull request (PR) testing
-A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified with the GUI which needs to be manually tested accross various operating systems. Additionaly, Bitcoin Core has few design focused testers / contributors resulting in the design of many PRs mostly being an afterthought or unfounded in design principlies. 
+A major development bottleneck for the Bitcoin Core project is the limited amount of PR testers. This issue is amplified with the GUI which needs to be manually tested across various operating systems. Additionally, Bitcoin Core has few design focused testers / contributors resulting in design direction of many PRs mostly being an afterthought or unfounded in design principles. 
 
-To assist with bridging the designer / developer gap, Project Muggle will be actively testing GUI PRs. Learnings gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
+To assist with bridging the designer / developer gap, Project Muggle will be actively testing GUI PRs. Learning's gained through testing PRs will be valuable in establishing design procedures for Bitcoin Core, as well as be useful for the wider Bitcoin community (such as contributing to the Bitcoin Design Guide). 
 
 Project Muggle will also be aiming to encourage more users (designers or not) to start testing PRs with well designed guides and documentation (see guides and documentation sections below).
 
 
 
 ## 🔬 Research
-Project Muggle conduct design research on how to best implement UI/UX features of the novel constraints that Bitcoin Core has on its products.
+Project Muggle conduct design research on how to best implement UI/UX features within the novel constraints Bitcoin Core products such as the GUI has. 
 
-Project Muggle will actively collaborate with Bitcoin Core wallet research project [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) were relevant. Project Muggle will also be implementing / contributing to the Bitcoin Design guide throughout its research.
+Project Muggle will actively collaborate with Bitcoin Core wallet research project [Project Horizon](https://docs.google.com/document/d/1Z2D1Wn5tkQ-Scdp0n8qm2mnFvik1wnU3vcu1DZ1f9jo/edit#) were relevant. Project Muggle will also be working alongside the Bitcoin Design community throughout its research.
 
 <details>
   <summary>Research areas of interest</summary>
@@ -85,17 +86,18 @@ Project Muggle will actively collaborate with Bitcoin Core wallet research proje
 - Multisig integration with hardened hierarchical Deterministic Wallets.
 - Bitcoin Core hardware wallet integration.
 - Node bootstrapping.
+- Who is the GUI being designed for? 
 
 </details>
 
 
 
 ## 🖥️ GUI Designs
-Project Muggle will be actively working on improving the UI/UX of the Bitcoin Core graphical user interface (GUI). Design scope will focus on changes that will be atomic (versioned), non-contentious and translatable to future frameworks such as QML (to not incur design debt). Contributing designs will also assist with establishing design workflows and processes that intergrate with the current Bitcoin Core contributing guidelines. 
+Project Muggle will be actively working on improving the UI/UX of the Bitcoin Core graphical user interface (GUI). Design scope will focus on changes that will be atomic (versioned), non-contentious and translatable to future frameworks such as QML (to not incur design debt). Contributing designs will also assist with establishing design workflows and processes that integrate with the current Bitcoin Core contributing guidelines. 
 
-Re-designing of bitcoincore.org (see section above) also impacts the UI/UX of the GUI
+Re-designing of bitcoincore.org (see section above) also falls under the umbrella of UI/UX of the GUI though this has been kept separate from this section.
 
-Some designs may be prototyped in other open source Bitcoin Projects that have a faster developmental pace than Bitcoin Core. These projects will be labelled as segeu designs.  
+Some designs may be prototyped in other open source Bitcoin Projects that have a faster developmental pace than Bitcoin Core. These projects will be labelled as segue designs.  
 
 
 ### QML GUI
@@ -106,15 +108,15 @@ Project Muggle will be applying a minimilist monochrome styling for this design 
 **More details coming soon.**
 
 
-### Onboarding wizard
-Currently the Bitcoin Core GUI has a limited onboarding process. Onboarding is a crucial step for any digital app to educate the users about the product. Currently users are thrown into the GUI with little guidance. The Bitcoin Core GUI has many features that can be confusing to new users. A well crafted onboarding process can help clarify these features for users. 
+### On-boarding wizard
+Currently the Bitcoin Core GUI has a limited on-boarding process. On-boarding is a crucial step for any digital application to educate users about the product. Currently users are thrown into the GUI with little guidance. The Bitcoin Core GUI has many features that can be confusing to new users that a well crafted on-boarding process can help clarify. 
 
-The onboarding designs are broken up into versions. This limits technical overhead making it easier for developers to implement designs. Core moves in calculated and incremental steps so atomizing these designs makes sense. 
+The on-boarding designs are broken up into versions. This limits technical overhead making it easier for developers to implement them. Bitcoin Core moves in calculated and incremental steps so atomising these designs is the most practical approach. 
 
 <details>
   <summary>Version 0.1</summary>
   
-Version 0.1 reworks the current, very limited on-boarding. The goal of this version is to educate the user about the GUI and running a full node. A first iteration of version 0.1 has been shared on GitHub for feedback [issue #81](https://github.com/bitcoin-core/gui/issues/81) [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15) to active design work.
+Version 0.1 reworks the current, very limited on-boarding. The goal of this version is to educate the user about the GUI and running a full node. A first iteration of version 0.1 has been shared on GitHub for feedback [issue #81](https://github.com/bitcoin-core/gui/issues/81). [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=1%3A15) to active design work.
 
 </details>
  
@@ -124,10 +126,17 @@ Version 0.1 reworks the current, very limited on-boarding. The goal of this vers
 Version 0.2 will introduce a basic create wallet flow to the on boarding process proceeding what is introduced in 0.1. The goal of this version is to walk users through setting up a wallet as simply as possible. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=104%3A216) to active design work.
  
 </details>
+
+<details>
+  <summary> Version 0.3 </summary>
+ 
+Version 0.3 will add to the wallet creation steps by adding descriptor import options for watch only wallets and external signer (hardware wallets) integration. 
+
+</details>
  
 
 ### Create wallet flow
-The current create wallet user flow does little to educate the user about what it is they are doing. Creating a wallet is an important action all Bitcoin users undertake. Wallet creation comes with many caveats and intricacies. Without educating users through the process it's likely they will costly errors.
+The current GUI create wallet user flow does little to educate the user about what it is they are doing. Creating a wallet is an important action all Bitcoin users undertake that has many caveats and intricacies. Without educating users through the process it's likely they will costly errors.
 
 <details>
    <summary> Version 0.1 </summary>
@@ -139,19 +148,19 @@ Version 0.1 will focus on re-working of what content is currently available. Thi
 <details>
    <summary> Version 0.2 </summary>
   
-Version 0.2 will focuss on adding additional features to the basic create wallet flow. Examples include external signer wallet option and descriptor imports for watch only wallets. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=158%3A0)to active design work.
+Version 0.2 will focus on adding additional features to the basic create wallet flow. Examples include external signer wallet create option and descriptor imports for watch only wallets. [Link](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/Bitcoin-Core-Designs?node-id=158%3A0)to active design work.
   
 </details>
  
 
 ### CoinControl
+CoinControl in Bitcoin Core, and Bitcoin wallets in general, is still considered to be an advanced user option. The primary barrier preventing CoinControl being usable by less experienced users is bad UX. CoinControl is an important part of using Bitcoin in order to manage funds and protect your privacy. Project Muggle will be working on making CoinControl more simplified for end users and integrating our learnings into the Bitcoin Core GUI. 
 
-
-[Some great discussions](https://github.com/BitcoinDesign/Guide/issues/22) and work is happening over at the Bitcoin Design community on improving CoinControl UX. Will be implementing these insights from here into the GUI's current coin control UI/UX.
+[Some great discussions](https://github.com/BitcoinDesign/Guide/issues/22) and work is happening over at the Bitcoin Design community on improving CoinControl UX. Project Muggle will be contributing insights to this discussion which will result in a better CoinControl UX for Bitcoin Core as well as the wider Bitcoin ecosystem.
 
 
 ### Hardware wallet intergration
-This will likely occur in parallel to v2.0 of the create wallet designs which integrates HWW UI when creating a wallet. This will include things like signing tx's within the GUI using a hardware wallet.  
+project Muggle will be desiging UI/UX for hardware wallet intergration in the GUI. Bitcoin Core is approaching external signers in a different way to other hardware wallets so a novel UI/UX is required. This will likely occur in parallel to v0.2 of the create wallet designs which integrates HWW UI when creating a wallet. This will include creating a wallet with an external signer and external signing using  the GUI using a hardware wallet. This is still a [WIP](https://github.com/bitcoin-core/gui/pull/4) on the techincal side but active design work will begin soon.   
 
 
 ### Multisig 
