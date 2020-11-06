@@ -160,23 +160,23 @@ CoinControl in Bitcoin Core, and Bitcoin wallets in general, is still considered
 
 
 ### Hardware wallet intergration
-project Muggle will be desiging UI/UX for hardware wallet intergration in the GUI. Bitcoin Core is approaching external signers in a different way to other hardware wallets so a novel UI/UX is required. This will likely occur in parallel to v0.2 of the create wallet designs which integrates HWW UI when creating a wallet. This will include creating a wallet with an external signer and external signing using  the GUI using a hardware wallet. This is still a [WIP](https://github.com/bitcoin-core/gui/pull/4) on the techincal side but active design work will begin soon.   
+Project Muggle will be designing UI/UX for hardware wallet integration in the Bitcoin Core GUI. Bitcoin Core is approaching external signers in a different way to other hardware wallets so a novel UI/UX is required. Designs will include creating a wallet with an external signer and signing using an external device. This is still a [WIP](https://github.com/bitcoin-core/gui/pull/4) on the technical side but active design work will begin soon.   
 
 
 ### Multisig 
-Once the GUI has a basic HWW create wallet flow UI implemented, multisig UI is the next priority. Multisig in Bitcoin Core is quite different from other wallets (due to no BIP39 implementation) so this will need to be designed from the ground up. 
+Project Muggle will be working on making a multisig interface for the Bitcoin Core GUI. Designs for multisig will be actively worked on once hardware wallet integration UI/UX is complete. Multisig in Bitcoin Core is quite different from other wallets (due to no BIP39 implementation) so like the hardware wallet integration this will also require a novel UI/UX approach. 
 
 
 ### Descriptor wallets
-Descriptor wallets included in the next major Bitcoin Core release (0.21) offer a wide range of UX implications. There does not yet exist any reference UI/UX best practices for working with descriptors so this project will be working on building. Some examples of UX improvements descriptors can offer are below:
+Descriptor wallets included in the next major Bitcoin Core release (0.21) offer a wide range of UX implications. There does not yet exist any reference UI/UX best practices for working with descriptors so designs will be novel. Some examples of UX improvements descriptors can offer are below:
 
-- Easier multisig backups.
+- Easier multisig / wallet backups.
 - Better wallet management. 
  
 
 
 ## 📄 Documentation
-Project Muggle will create documentation as part of developing design foundations for Bitcoin Core.
+Project Muggle will create documentation as part of developing design foundations and processes for Bitcoin Core.
 
 <details>
  <summary>List of Documentation</summary>
@@ -190,7 +190,7 @@ Project Muggle will create documentation as part of developing design foundation
 
 
 ## 🗺️ Guides
-Project Muggle will create simple how-to guides to help end users navigate products developed by Bitcoin Core. Guides will be published on Medium / GitHub and my personal site (coming soon).
+Project Muggle will create simple how-to guides to help end users navigate products developed by Bitcoin Core. Guides will be published on Medium / GitHub. 
 
 <details>
  <summary>List of guides</summary>
@@ -199,6 +199,7 @@ Project Muggle will create simple how-to guides to help end users navigate produ
  - **WIP** Setting up your Bitcoin Core GUI node.
  - **WIP** Generating a multisig wallet on the Bitcoin Core GUI.
  - **WIP** Connecting you Bitcoin Core GUI node over Tor.
+ - **WIP** Backing up your Bitcoin Core private keys. 
  
 </details>
 
@@ -211,11 +212,12 @@ Project Muggle aims to actively keep design focused dialogues going between the 
   <summary>List of discussions</summary>
 
 - [Bitcoin Core Branding](https://github.com/bitcoin-core/gui/issues/89).
-- [Bitcoin Core / Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
-- Switching net's within the gui [issue #78](https://github.com/bitcoin-core/gui/issues/78)
+- [Research the history of Core GUI changes through Github issues](https://github.com/BitcoinDesign/Meta/issues/19) 
+- Switching net's within the GUI [issue #78](https://github.com/bitcoin-core/gui/issues/78)
 - Establishing Bitcoin Core design system. 
 - Switching Qt framework from widgets to QML.
-- Headless Bitcoin Core GUI.
+- Headless Bitcoin Core GUI - are desktop nodes the way forward?
+- Encrypting Bitcoin Core wallet's meta content, not just private keys. 
 
 </details>
 
@@ -223,7 +225,7 @@ Project Muggle aims to actively keep design focused dialogues going between the 
 
 ## 🤏 Minor design contributions
 <details>
-  <summary>Below are minor UI/UX contributions Project Muggle has made</summary>
+  <summary>Below are minor UI/UX contributions Project Muggle has made:</summary>
  
 - Add Tor icon to GUI [issue #58](https://github.com/bitcoin-core/gui/issues/58) / [PR #86](https://github.com/bitcoin-core/gui/pull/86)
 - Slight GUI UI/UX improvement when creating wallets [PR #96](https://github.com/bitcoin-core/gui/pull/96)
