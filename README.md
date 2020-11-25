@@ -23,7 +23,7 @@ Establish design foundations and direction for Bitcoin Core by the 0.22.0 releas
 
 
 # What is Project Muggle working on? 
-## 🌌 Bitcoin Core Design system(s)
+## 🌌 Bitcoin Core Design system
 A design system has many definitions, though the Nielsen Norman Group's definition below is quite accurate:
 
 > Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
