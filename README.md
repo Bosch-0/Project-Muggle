@@ -10,7 +10,7 @@ This repo will keep track of efforts made in improving the design focus of Bitco
 
 
 # 🏆 Goal of Project Muggle 
-Establish design foundations and direction for Bitcoin Core by the 22.0 release (~July 2021). 
+Establish design foundations and direction for Bitcoin Core by the 0.22.0 release (~July 2021). 
 
 
 ### What will this achieve?
