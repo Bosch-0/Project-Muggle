@@ -37,7 +37,7 @@ Project Muggle will be working on a re-design of bitcoincore.org using our Bitco
 
 
 
-## 🖥️ Redesign a QML based GUI
+## 🖥️ [#3 Redesign a QML based GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoin-Core-Design-System?node-id=2280%3A110)
 Project Muggle will be actively working on improving the UI/UX of the Bitcoin Core graphical user interface (GUI) whilst applying the Bitcoin Core design system. Design scope will focus on changes that will be atomic (versioned), and non-contentious.
 
 
