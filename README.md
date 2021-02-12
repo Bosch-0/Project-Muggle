@@ -10,36 +10,28 @@ This repo will keep track of efforts made in improving the design focus of Bitco
 
 
 # 🏆 Goal of Project Muggle 
-Establish design foundations and direction for Bitcoin Core by the 0.22.0 release (~July 2021). 
+Establish design foundations and direction for Bitcoin Core. 
 
 
 ### What will this achieve?
 
-- Better UI/UX for current and future users of Bitcoin Core products such as the GUI / website. 
+- Better UI/UX for current and future users of Bitcoin Core products such as the GUI. 
 - More design focused contributors / stronger design contribution process within Bitcoin Core.
 - Save time and resources by reducing developmental debt - both technical and design.
 - Assist with establishing Bitcoin open design processes and standards that help the wider Bitcoin ecosystem. 
 
 
 
-# What is Project Muggle working on? 
-## 🌌 Bitcoin Core Design system
-A design system has many definitions, though the Nielsen Norman Group's definition below is quite accurate:
+# Project Muggle Timeline
+## 🌌 [#1 Establish a Bitcoin Core Design system](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/Bitcoin-Core-Design-System?node-id=1830%3A608)
+Currently no design system exists within the Bitcoin Core project. Project Muggle will establish a Figma based design system for Bitcoin Core that can be used in its products such as the GUI as well as their website. 
 
-> Design Systems—also known as 'pattern libraries' or 'component  libraries'—promote quality, consistent UX design across products; and  expedite the work of designers, developers, and anyone else working on a  website, application, or any digital design.
-
-Project Muggle will initially establish two Figma native design systems for Bitcoin Core. One for the [GUI](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/GUI-Design-System?node-id=1830%3A608) and one for [bitcoincore.org](https://www.figma.com/file/k30cNrPIUybQ8rpvuDF60Q/Website-Design-System?node-id=6%3A0). These two files will be hosted by a [BitcoinCore Figma account](https://www.figma.com/@BitcoinCore). Governence of this account will also have to be established. Having a design system will be assist with on-boarding new designers and will significantly speed up the developing, contributing and testing of designs.
-
-Two will exist initially due to the constraints of the Qt widgets framework currently used by the GUI, which uses native OS styling making a custom design system challenging. The GUI design system will be built around these constraints, whilst the bitcoincore.org design system will introduce a whole new custom look and feel. It's likely the GUI will transition to using the more flexible Qt framework QML (discussions currently underway) in the near future of which the design system built for bitcoincore.org will be applied to a new custom QML based design. 
-
-To see how designers will work with these design systems a [README](https://www.figma.com/file/0oqnohjahRtprjRyaetDOL/?node-id=271%3A527) at the start of each design system outlining workflows has been included.
-
-A single, full fledged design system including design and code snippets will eventually be hosted on GitHub pages through a live, interactive web app.
+- A single, full fledged design system including design and code snippets will eventually be hosted on GitHub pages through a live, interactive web app.
 
 
 
-## 🌐 Bitcoincore.org redesign 
-Project Muggle will be working on a complete re-design of bitcoincore.org using our Bitcoin Core website design system outlined above. 
+## 🌐 #2 Bitcoincore.org redesign 
+Project Muggle will be working on a complete re-design of bitcoincore.org using the above Bitcoin Core design system outlined above. 
 
 Bitcoincore.org currently has a dated and not so user friendly design. User journey's do not start with running an application. In the case of the GUI downloading the binaries from a trusted source such as bitcoincore.org is a first step. The current design does not communicate trust nor does it do a good job educating users about Bitcoin Core and what it offers. A re-design that puts emphasis on user experience and trust will significantly improve how users view Bitcoin Core and its associated products. [Active design](https://www.figma.com/file/4dO1LqPY0WAgp5d1Bz3U8j/?node-id=110%3A0) work will begin once the website design system is established. 
 
